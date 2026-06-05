@@ -3,6 +3,8 @@
 <html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=()">
   <title>Marvel Snap Deck Lab</title>
   <style>
     :root {
@@ -1225,7 +1227,7 @@
     }
   </style>
 </head>
-<body><div id="brk_yuan"></div>
+<body>
   <div class="app">
     <header class="topbar">
       <div class="brand">
@@ -1236,17 +1238,17 @@
         </div>
       </div>
       <div class="top-actions">
-        <button class="btn secondary" type="button" id="btnSaveBackup">Salvar backup</button>
-        <button class="btn secondary" type="button" id="btnLoadBackup">Carregar backup</button>
+        <button class="btn secondary" type="button" id="btnSaveBackup" title="Exportar coleção, regras e imagens deste navegador">Exportar dados</button>
+        <button class="btn secondary" type="button" id="btnLoadBackup" title="Importar dados locais de outro navegador ou aparelho">Importar dados</button>
         <button class="btn secondary" type="button" id="btnRandomSeed">Seed</button>
         <button class="btn secondary" type="button" id="btnResetData">Resetar base</button>
       </div>
     </header>
 
     <nav class="view-tabs" aria-label="Modos">
-      <button class="view-tab active" type="button" data-view="generatorView" onclick="switchView('generatorView')">Gerador</button>
-      <button class="view-tab" type="button" data-view="tournamentView" onclick="switchView('tournamentView')">Torneio</button>
-      <button class="view-tab" type="button" data-view="rouletteView" onclick="switchView('rouletteView')">Roleta</button>
+      <button class="view-tab active" type="button" data-view="generatorView">Gerador</button>
+      <button class="view-tab" type="button" data-view="tournamentView">Torneio</button>
+      <button class="view-tab" type="button" data-view="rouletteView">Roleta</button>
     </nav>
 
     <main class="layout app-view active" id="generatorView">
@@ -1259,7 +1261,7 @@
           <div class="panel-body">
             <div class="field">
               <label for="deckName">Nome</label>
-              <input id="deckName" maxlength="40" value="Deck do Cleber">
+              <input id="deckName" maxlength="40" value="Deck do Rodrigosvaldo">
             </div>
             <div class="field">
               <label for="collectionMode">Séries</label>
@@ -1273,7 +1275,7 @@
             <div class="field">
               <label for="ownershipMode">Disponibilidade</label>
               <select id="ownershipMode">
-                <option value="owned">Só minha coleção</option>
+                <option value="owned">Só coleção ativa</option>
                 <option value="all">Todas cadastradas</option>
               </select>
             </div>
@@ -1350,7 +1352,7 @@
             </div>
             <div class="field">
               <label for="chosenCardsInput">Nomes das cartas escolhidas</label>
-              <textarea id="chosenCardsInput" placeholder="Uma carta por linha. Ex: Iron Man&#10;Mystique&#10;Living Tribunal"></textarea>
+              <textarea id="chosenCardsInput" maxlength="700" placeholder="Uma carta por linha. Ex: Iron Man&#10;Mystique&#10;Living Tribunal"></textarea>
             </div>
             <div class="button-row">
               <button class="btn secondary" type="button" id="btnRollChaos">Sortear caos</button>
@@ -1378,13 +1380,13 @@
 
         <section class="panel">
           <div class="panel-header">
-            <h2>Minha coleção</h2>
+            <h2>Coleções</h2>
             <span class="pill" id="missingSummary">200 faltando</span>
           </div>
           <div class="panel-body">
             <div class="field">
               <label for="collectionProfile">Perfil ativo</label>
-              <select id="collectionProfile"><option value="main">Minha coleção (253/453)</option><option value="ulisses-mode-mpx4ycsb">Ulisses mode (453/453)</option></select>
+              <select id="collectionProfile"><option value="main">Coleção principal</option></select>
             </div>
             <div class="field">
               <label for="newCollectionName">Nome do perfil</label>
@@ -1452,7 +1454,7 @@
 
       <section class="main">
         <section class="panel toolbar">
-          <div class="status" id="status" style="border-color: rgba(98, 218, 143, 0.55);">Perfil criado: Coleção 2.</div>
+          <div class="status" id="status">Pronto para gerar.</div>
           <div class="button-row">
             <button class="btn" type="button" id="btnGenerate">Gerar deck</button>
             <button class="btn secondary" type="button" id="btnRevealDeck">Revelar deck</button>
@@ -1521,11 +1523,11 @@
               <div class="split">
                 <div class="field">
                   <label for="newName">Nome</label>
-                  <input id="newName" placeholder="Ex: Luna Snow">
+                  <input id="newName" maxlength="64" placeholder="Ex: Luna Snow">
                 </div>
                 <div class="field">
                   <label for="newId">CardDefId</label>
-                  <input id="newId" placeholder="Ex: LunaSnow">
+                  <input id="newId" maxlength="48" placeholder="Ex: LunaSnow">
                 </div>
               </div>
               <div class="split">
@@ -1540,7 +1542,7 @@
               </div>
               <div class="field">
                 <label for="newTags">Tags</label>
-                <input id="newTags" placeholder="destroy, control, ongoing">
+                <input id="newTags" maxlength="160" placeholder="destroy, control, ongoing">
               </div>
               <button class="btn good" type="button" id="btnAddCard">Adicionar</button>
             </div>
@@ -1553,7 +1555,7 @@
             <div class="panel-body">
               <div class="field">
                 <label for="decodeInput">Código de deck</label>
-                <textarea id="decodeInput" placeholder="Cole um código do Snap."></textarea>
+                <textarea id="decodeInput" maxlength="5000" placeholder="Cole um código do Snap."></textarea>
               </div>
               <button class="btn secondary" type="button" id="btnDecode">Ler código</button>
               <div class="decode-list" id="decodedDeck"></div>
@@ -1620,7 +1622,7 @@
               <label for="rouletteMode">Tipo de sorteio</label>
               <select id="rouletteMode">
                 <option value="participants">Participantes</option>
-                <option value="challenges">Desafios rápidos</option>
+                <option value="challenges">Desafios do torneio</option>
                 <option value="custom">Lista personalizada</option>
               </select>
             </div>
@@ -1631,7 +1633,7 @@
             <div class="field" id="challengeEditor">
               <label for="challengeInput">Adicionar desafio</label>
               <div class="challenge-add">
-                <input id="challengeInput" maxlength="70" placeholder="Ex: Snap obrigatório até o turno 3">
+                <input id="challengeInput" maxlength="70" placeholder="Ex: Vantagem: escolha 2">
                 <button class="btn secondary" type="button" id="btnAddChallenge">Adicionar</button>
               </div>
               <div class="button-row">
@@ -1641,7 +1643,7 @@
             </div>
             <div class="field" id="rouletteCustomField">
               <label for="rouletteCustom">Lista personalizada</label>
-              <textarea id="rouletteCustom" placeholder="Um item por linha. Ex: Primeiro pick, Banir uma carta, Revanche"></textarea>
+              <textarea id="rouletteCustom" maxlength="1600" placeholder="Um item por linha. Ex: Primeiro pick, Banir uma carta, Revanche"></textarea>
             </div>
             <div class="button-row">
               <button class="btn" type="button" id="btnSpinRoulette">Girar</button>
@@ -2184,6 +2186,13 @@
     const STORAGE_KEY = "snapDeckLab:v2";
     const IMAGE_STORAGE_KEY = "snapDeckLab:images:v1";
     const DEFAULT_COLLECTION_ID = "main";
+    const DEFAULT_COLLECTION_NAME = "Coleção principal";
+    const MAX_CUSTOM_CARDS = 80;
+    const MAX_CHALLENGES = 48;
+    const MAX_IMAGE_BYTES = 4 * 1024 * 1024;
+    const MAX_IMAGE_PIXELS = 20_000_000;
+    const MAX_DATA_URL_LENGTH = 900_000;
+    const MAX_BACKUP_BYTES = 12 * 1024 * 1024;
     const DEFAULT_GENERATOR_RULES = {
       enabled: false,
       costMode: "any",
@@ -2194,43 +2203,42 @@
       blind: false
     };
     const DEFAULT_CHALLENGES = [
-      "Vencedor escolhe arquétipo",
-      "Perdedor gira de novo",
-      "Todos no Aleatório total",
-      "Deck com Caos 100%",
+      "Vantagem: escolha 1",
+      "Vantagem: escolha 2",
+      "Vantagem: escolha 3",
+      "Vantagem: escolha 4",
+      "Vantagem: caos 20%",
+      "Vantagem: Flex",
       "Caos sorteado",
-      "Bom: escolha 2 cartas",
-      "Bom: escolha 3 cartas",
-      "Bom: Caos baixo",
-      "Ruim: Caos 100%",
-      "Ruim: só cartas custo ímpar",
-      "Ruim: sem carta custo 6+",
-      "Ruim: 2 cartas surpresa fixas",
-      "Ruim: gerar deck às cegas",
-      "Snap até turno 3",
-      "Sem recuar",
-      "Partida dobrada",
-      "Melhor de 3",
-      "Revanche obrigatória",
-      "Trocar decks",
-      "Banir 1 carta",
-      "Sem carta custo 6+",
-      "Só cartas custo par",
-      "Só cartas custo ímpar",
+      "Caos 100%",
+      "Aleatório total",
+      "Deck às cegas",
+      "1 carta oculta",
+      "2 cartas ocultas",
+      "3 cartas ocultas",
+      "Só custos pares",
+      "Só custos ímpares",
+      "Sem custo 1",
+      "Sem custo 6+",
+      "Só custos 0-3",
+      "Só custos 2-5",
       "Sem fixar cartas",
-      "Gerar deck às cegas",
-      "Final vale 2 pontos",
-      "Vencedor bane arquétipo",
-      "Perdedor escolhe série",
-      "Só cartas da coleção",
-      "Todos refazem o deck",
-      "Uma carta surpresa fixa",
-      "Escolha 1 carta",
-      "Escolha 2 cartas",
-      "Escolha 3 cartas",
-      "Escolha 4 cartas",
-      "Sem olhar a lista antes",
-      "Quem perder escolhe o mapa"
+      "Só coleção",
+      "Todas liberadas",
+      "Base e S1/S2",
+      "Até Série 3",
+      "Sem Série 4/5",
+      "Sem sinergia",
+      "Sem curva",
+      "Sem curva/sinergia",
+      "Arquétipo Destroy",
+      "Arquétipo Discard",
+      "Arquétipo Move",
+      "Arquétipo Ongoing",
+      "Arquétipo On Reveal",
+      "Arquétipo Control",
+      "Arquétipo Surfer",
+      "Arquétipo Zoo"
     ];
     const state = {
       cards: [],
@@ -2356,37 +2364,100 @@
       viewTabs: document.querySelectorAll(".view-tab")
     };
 
+    function cleanText(value, maxLength = 80) {
+      return String(value ?? "")
+        .replace(/[\u0000-\u001f\u007f]/g, "")
+        .trim()
+        .slice(0, maxLength);
+    }
+
+    function cleanMultilineText(value, maxLength = 1000) {
+      return String(value ?? "")
+        .replace(/\r\n?/g, "\n")
+        .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/g, "")
+        .trim()
+        .slice(0, maxLength);
+    }
+
+    function clampNumber(value, min, max, fallback) {
+      const number = Number(value);
+      if (!Number.isFinite(number)) return fallback;
+      return Math.max(min, Math.min(max, Math.round(number)));
+    }
+
+    function safeCardId(value) {
+      return cleanText(value, 48).replace(/[^A-Za-z0-9]/g, "");
+    }
+
+    function safeStorageId(value, fallback = "") {
+      return cleanText(value, 96).replace(/[^A-Za-z0-9_-]/g, "") || fallback;
+    }
+
+    function safeImageUrl(value) {
+      const url = cleanText(value, MAX_DATA_URL_LENGTH);
+      if (!url) return "";
+      if (url.startsWith("https://game-assets.snap.fan/")) return url;
+      if (/^data:image\/(?:png|jpe?g|webp);base64,[a-z0-9+/=\s]+$/i.test(url) && url.length <= MAX_DATA_URL_LENGTH) return url;
+      return "";
+    }
+
+    function sanitizeImages(images) {
+      if (!images || typeof images !== "object" || Array.isArray(images)) return {};
+      const output = {};
+      Object.entries(images).slice(0, BASE_CARDS.length + MAX_CUSTOM_CARDS).forEach(([id, value]) => {
+        const safeId = safeCardId(id);
+        const image = safeImageUrl(value);
+        if (safeId && image.startsWith("data:image/")) output[safeId] = image;
+      });
+      return output;
+    }
+
     function normalizeCard(card) {
+      const id = safeCardId(card && card.id);
+      const name = cleanText(card && card.name, 64) || id || "Carta";
+      const allowedSeries = ["Starter", "S1/2", "S3", "S4/5", "Custom", "Unknown"];
+      const rawSeries = cleanText(card && card.series, 20);
       return {
-        ...card,
-        cost: Number(card.cost),
-        power: Number(card.power),
-        tags: Array.isArray(card.tags) ? card.tags.map(tag => tag.trim()).filter(Boolean) : []
+        ...(card || {}),
+        name,
+        id,
+        cost: clampNumber(card && card.cost, 0, 9, 3),
+        power: clampNumber(card && card.power, -30, 30, 0),
+        series: allowedSeries.includes(rawSeries) ? rawSeries : (card && card.custom ? "Custom" : "Unknown"),
+        tags: Array.isArray(card && card.tags)
+          ? [...new Set(card.tags.map(tag => cleanText(tag, 24).toLowerCase()).filter(Boolean))].slice(0, 8)
+          : [],
+        imageUrl: safeImageUrl(card && card.imageUrl),
+        custom: card && card.custom === true
       };
     }
 
     function normalizeProfile(profile, fallbackIndex = 1) {
-      const id = profile && profile.id ? String(profile.id) : makeCollectionId(`colecao-${fallbackIndex}`);
-      const name = profile && profile.name ? String(profile.name).slice(0, 34) : `Coleção ${fallbackIndex}`;
+      const savedId = profile && profile.id ? safeStorageId(profile.id) : "";
+      const id = savedId || makeCollectionId(`colecao-${fallbackIndex}`);
+      const name = profile && profile.name ? cleanText(profile.name, 34) : `Coleção ${fallbackIndex}`;
       const missing = Array.isArray(profile && profile.missing) ? profile.missing : [];
-      return { id, name, missing: [...new Set(missing)] };
+      return { id, name, missing: [...new Set(missing.map(safeCardId).filter(Boolean))] };
     }
 
     function normalizeParticipant(participant) {
       if (!participant || !participant.name) return null;
+      const name = cleanText(participant.name, 34);
+      if (!name) return null;
+      const savedId = participant.id ? safeStorageId(participant.id) : "";
       return {
-        id: participant.id || makeParticipantId(participant.name),
-        name: String(participant.name).slice(0, 34),
-        seed: participant.seed || "",
-        deckIds: Array.isArray(participant.deckIds) ? participant.deckIds.filter(Boolean) : [],
-        hiddenIds: Array.isArray(participant.hiddenIds) ? participant.hiddenIds.filter(Boolean) : [],
+        id: savedId || makeParticipantId(name),
+        name,
+        seed: cleanText(participant.seed, 40),
+        deckIds: Array.isArray(participant.deckIds) ? participant.deckIds.map(safeCardId).filter(Boolean).slice(0, 12) : [],
+        hiddenIds: Array.isArray(participant.hiddenIds) ? participant.hiddenIds.map(safeCardId).filter(Boolean).slice(0, 12) : [],
         revealed: participant.revealed !== false
       };
     }
 
     function normalizeChallenges(challenges) {
       const source = Array.isArray(challenges) ? challenges : DEFAULT_CHALLENGES;
-      return [...new Set(source.map(item => String(item).trim()).filter(Boolean))];
+      return [...new Set(source.map(item => cleanText(item, 70)).filter(Boolean))].slice(0, MAX_CHALLENGES);
     }
 
     function normalizeGeneratorRules(rules = {}) {
@@ -2402,7 +2473,7 @@
         allowedCosts: allowedCosts.length ? [...new Set(allowedCosts)] : [...DEFAULT_GENERATOR_RULES.allowedCosts],
         surpriseCount,
         chosenCount,
-        chosenCards: String(rules.chosenCards || ""),
+        chosenCards: cleanMultilineText(rules.chosenCards, 700),
         blind: rules.blind === true
       };
     }
@@ -2506,14 +2577,14 @@
       const fallbackSeed = makeSeed();
       try {
         const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-        const savedCards = Array.isArray(saved.cards) ? saved.cards : [];
+        const savedCards = Array.isArray(saved.cards) ? saved.cards.slice(0, MAX_CUSTOM_CARDS) : [];
         state.cards = mergeCards(BASE_CARDS, savedCards).map(normalizeCard);
         state.hiddenDeckIds = new Set(Array.isArray(saved.hiddenDeckIds) ? saved.hiddenDeckIds : []);
         state.pinned = new Set(Array.isArray(saved.pinned) ? saved.pinned : []);
         state.banned = new Set(Array.isArray(saved.banned) ? saved.banned : []);
         state.collectionProfiles = Array.isArray(saved.collectionProfiles) && saved.collectionProfiles.length
           ? saved.collectionProfiles.map(normalizeProfile)
-          : [normalizeProfile({ id: DEFAULT_COLLECTION_ID, name: "Minha coleção", missing: Array.isArray(saved.missing) ? saved.missing : [] })];
+          : [normalizeProfile({ id: DEFAULT_COLLECTION_ID, name: DEFAULT_COLLECTION_NAME, missing: Array.isArray(saved.missing) ? saved.missing : [] })];
         state.activeCollectionId = state.collectionProfiles.some(profile => profile.id === saved.activeCollectionId)
           ? saved.activeCollectionId
           : state.collectionProfiles[0].id;
@@ -2524,16 +2595,16 @@
         state.generatorRules = normalizeGeneratorRules(saved.generatorRules);
         state.deckRevealed = saved.deckRevealed !== false;
         state.challengeOptions = normalizeChallenges(saved.challengeOptions);
-        state.rouletteResult = saved.rouletteResult || "";
-        state.rouletteNote = saved.rouletteNote || "";
+        state.rouletteResult = cleanText(saved.rouletteResult, 70);
+        state.rouletteNote = cleanText(saved.rouletteNote, 120);
         state.rouletteRotation = Number(saved.rouletteRotation) || 0;
         state.images = loadImages();
         state.archetype = saved.archetype && ARCHETYPES[saved.archetype] ? saved.archetype : "flex";
-        el.deckName.value = saved.deckName || el.deckName.value;
-        el.seedInput.value = saved.seed || fallbackSeed;
-        el.collectionMode.value = saved.collectionMode || "all";
-        el.ownershipMode.value = saved.ownershipMode || "owned";
-        el.cardViewMode.value = saved.cardViewMode || "all";
+        el.deckName.value = cleanText(saved.deckName, 40) || el.deckName.value;
+        el.seedInput.value = cleanText(saved.seed, 24) || fallbackSeed;
+        el.collectionMode.value = ["all", "starter", "series3", "noPremium"].includes(saved.collectionMode) ? saved.collectionMode : "all";
+        el.ownershipMode.value = ["owned", "all"].includes(saved.ownershipMode) ? saved.ownershipMode : "owned";
+        el.cardViewMode.value = ["all", "owned", "missing", "withImage", "withoutImage"].includes(saved.cardViewMode) ? saved.cardViewMode : "all";
         el.chaosRange.value = Number.isFinite(Number(saved.chaos)) ? saved.chaos : 38;
         el.curveToggle.checked = saved.curve !== false;
         el.synergyToggle.checked = saved.synergy !== false;
@@ -2541,12 +2612,12 @@
         el.seedLockToggle.checked = saved.lockSeed === true;
         el.soundToggle.checked = saved.soundEnabled !== false;
         applyRulesToControls(state.generatorRules);
-        if (saved.rouletteMode) el.rouletteMode.value = saved.rouletteMode;
-        el.rouletteCustom.value = saved.rouletteCustom || "";
+        if (["participants", "challenges", "custom"].includes(saved.rouletteMode)) el.rouletteMode.value = saved.rouletteMode;
+        el.rouletteCustom.value = cleanMultilineText(saved.rouletteCustom, 1600);
         el.newCollectionName.value = getActiveProfile().name;
       } catch (error) {
         state.cards = BASE_CARDS.map(normalizeCard);
-        state.collectionProfiles = [normalizeProfile({ id: DEFAULT_COLLECTION_ID, name: "Minha coleção", missing: [] })];
+        state.collectionProfiles = [normalizeProfile({ id: DEFAULT_COLLECTION_ID, name: DEFAULT_COLLECTION_NAME, missing: [] })];
         state.activeCollectionId = DEFAULT_COLLECTION_ID;
         state.missing = new Set();
         state.tournamentParticipants = [];
@@ -2561,7 +2632,7 @@
         el.seedInput.value = fallbackSeed;
         el.soundToggle.checked = true;
         applyRulesToControls(state.generatorRules);
-        el.newCollectionName.value = "Minha coleção";
+        el.newCollectionName.value = DEFAULT_COLLECTION_NAME;
       }
       updateChaosLabel();
     }
@@ -2569,7 +2640,7 @@
     function loadImages() {
       try {
         const parsed = JSON.parse(localStorage.getItem(IMAGE_STORAGE_KEY) || "{}");
-        return parsed && typeof parsed === "object" ? parsed : {};
+        return sanitizeImages(parsed);
       } catch (error) {
         return {};
       }
@@ -2577,6 +2648,7 @@
 
     function saveImages() {
       try {
+        state.images = sanitizeImages(state.images);
         localStorage.setItem(IMAGE_STORAGE_KEY, JSON.stringify(state.images));
         return true;
       } catch (error) {
@@ -2588,36 +2660,41 @@
     function saveState() {
       const customCards = state.cards.filter(card => card.custom);
       syncActiveProfile();
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({
-        cards: customCards,
-        hiddenDeckIds: [...state.hiddenDeckIds],
-        pinned: [...state.pinned],
-        banned: [...state.banned],
-        missing: [...state.missing],
-        collectionProfiles: state.collectionProfiles,
-        activeCollectionId: state.activeCollectionId,
-        tournamentParticipants: state.tournamentParticipants,
+      const payload = {
+        cards: customCards.slice(0, MAX_CUSTOM_CARDS).map(normalizeCard),
+        hiddenDeckIds: [...state.hiddenDeckIds].map(safeCardId).filter(Boolean).slice(0, 12),
+        pinned: [...state.pinned].map(safeCardId).filter(Boolean),
+        banned: [...state.banned].map(safeCardId).filter(Boolean),
+        missing: [...state.missing].map(safeCardId).filter(Boolean),
+        collectionProfiles: state.collectionProfiles.map((profile, index) => normalizeProfile(profile, index + 1)),
+        activeCollectionId: safeStorageId(state.activeCollectionId, DEFAULT_COLLECTION_ID),
+        tournamentParticipants: state.tournamentParticipants.map(normalizeParticipant).filter(Boolean).slice(0, 32),
         generatorRules: getGeneratorRules(),
         deckRevealed: state.deckRevealed,
-        challengeOptions: state.challengeOptions,
-        rouletteResult: state.rouletteResult,
-        rouletteNote: state.rouletteNote,
-        rouletteRotation: state.rouletteRotation,
-        rouletteMode: el.rouletteMode.value,
-        rouletteCustom: el.rouletteCustom.value,
+        challengeOptions: normalizeChallenges(state.challengeOptions),
+        rouletteResult: cleanText(state.rouletteResult, 70),
+        rouletteNote: cleanText(state.rouletteNote, 120),
+        rouletteRotation: Number(state.rouletteRotation) || 0,
+        rouletteMode: ["participants", "challenges", "custom"].includes(el.rouletteMode.value) ? el.rouletteMode.value : "challenges",
+        rouletteCustom: cleanMultilineText(el.rouletteCustom.value, 1600),
         soundEnabled: el.soundToggle.checked,
-        archetype: state.archetype,
-        deckName: el.deckName.value,
-        seed: el.seedInput.value,
-        collectionMode: el.collectionMode.value,
-        ownershipMode: el.ownershipMode.value,
-        cardViewMode: el.cardViewMode.value,
-        chaos: Number(el.chaosRange.value),
+        archetype: ARCHETYPES[state.archetype] ? state.archetype : "flex",
+        deckName: cleanText(el.deckName.value, 40),
+        seed: cleanText(el.seedInput.value, 24),
+        collectionMode: ["all", "starter", "series3", "noPremium"].includes(el.collectionMode.value) ? el.collectionMode.value : "all",
+        ownershipMode: ["owned", "all"].includes(el.ownershipMode.value) ? el.ownershipMode.value : "owned",
+        cardViewMode: ["all", "owned", "missing", "withImage", "withoutImage"].includes(el.cardViewMode.value) ? el.cardViewMode.value : "all",
+        chaos: clampNumber(el.chaosRange.value, 0, 100, 38),
         curve: el.curveToggle.checked,
         synergy: el.synergyToggle.checked,
         includeName: el.nameToggle.checked,
         lockSeed: el.seedLockToggle.checked
-      }));
+      };
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+      } catch (error) {
+        setStatus("Não consegui salvar os dados neste navegador. Exporte os dados locais para preservar sua coleção.", "bad");
+      }
     }
 
     function applyRulesToControls(rules) {
@@ -2778,8 +2855,9 @@
     function mergeCards(baseCards, customCards) {
       const map = new Map();
       baseCards.forEach(card => map.set(card.id, { ...card, custom: false }));
-      customCards.forEach(card => {
-        if (card && card.id && card.name) {
+      customCards.slice(0, MAX_CUSTOM_CARDS).forEach(rawCard => {
+        const card = normalizeCard({ ...(rawCard || {}), custom: true });
+        if (card.id && card.name) {
           map.set(card.id, { ...card, custom: true });
         }
       });
@@ -2857,7 +2935,7 @@
 
       if (state.currentDeck.length === 12) {
         const hiddenText = state.hiddenDeckIds.size ? ` com ${state.hiddenDeckIds.size} carta${state.hiddenDeckIds.size > 1 ? "s" : ""} oculta${state.hiddenDeckIds.size > 1 ? "s" : ""}` : "";
-        setStatus(`<strong>${archetype.label}</strong> com 12 cartas gerado${hiddenText}.`, "good", true);
+        setStatus(`${archetype.label} com 12 cartas gerado${hiddenText}.`, "good");
         playSound("success");
       } else {
         setStatus(`Deck parcial com ${state.currentDeck.length} cartas.`, "bad");
@@ -3121,7 +3199,16 @@
           hidden.title = "Clique para revelar";
           hidden.setAttribute("role", "button");
           hidden.setAttribute("tabindex", "0");
-          hidden.innerHTML = `<div class="blind-card-mark"><b>?</b><span>Carta ${i + 1}</span><span>Clique para revelar</span></div>`;
+          const mark = document.createElement("div");
+          mark.className = "blind-card-mark";
+          const symbol = document.createElement("b");
+          symbol.textContent = "?";
+          const label = document.createElement("span");
+          label.textContent = `Carta ${i + 1}`;
+          const hint = document.createElement("span");
+          hint.textContent = "Clique para revelar";
+          mark.append(symbol, label, hint);
+          hidden.appendChild(mark);
           hidden.addEventListener("click", () => revealHiddenCard(card.id));
           hidden.addEventListener("keydown", event => {
             if (event.key === "Enter" || event.key === " ") revealHiddenCard(card.id);
@@ -3514,8 +3601,13 @@
       const id = state.pendingImageId;
       if (!file || !id) return;
 
-      if (!file.type.startsWith("image/")) {
-        setStatus("Escolha um arquivo de imagem.", "bad");
+      if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) {
+        setStatus("Escolha uma imagem JPG, PNG ou WebP.", "bad");
+        return;
+      }
+
+      if (file.size > MAX_IMAGE_BYTES) {
+        setStatus("Essa imagem está grande demais. Use uma imagem de até 4 MB.", "bad");
         return;
       }
 
@@ -3539,6 +3631,10 @@
           const image = new Image();
           image.onerror = reject;
           image.onload = () => {
+            if (image.width * image.height > MAX_IMAGE_PIXELS) {
+              reject(new Error("imagem grande demais"));
+              return;
+            }
             const maxWidth = 420;
             const maxHeight = 560;
             const scale = Math.min(maxWidth / image.width, maxHeight / image.height, 1);
@@ -3560,18 +3656,19 @@
     }
 
     function addCard() {
-      const name = el.newName.value.trim();
-      const id = el.newId.value.trim();
-      const cost = Number(el.newCost.value);
-      const power = Number(el.newPower.value);
-      const tags = el.newTags.value.split(",").map(tag => tag.trim()).filter(Boolean);
+      const name = cleanText(el.newName.value, 64);
+      const rawId = cleanText(el.newId.value, 48);
+      const id = safeCardId(rawId);
+      const cost = clampNumber(el.newCost.value, 0, 9, NaN);
+      const power = clampNumber(el.newPower.value, -30, 30, NaN);
+      const tags = el.newTags.value.split(",").map(tag => cleanText(tag, 24).toLowerCase()).filter(Boolean).slice(0, 8);
 
       if (!name || !id || !Number.isFinite(cost) || !Number.isFinite(power)) {
         setStatus("Preencha nome, CardDefId, custo e poder.", "bad");
         return;
       }
 
-      if (!/^[A-Za-z0-9]+$/.test(id)) {
+      if (!id || rawId !== id) {
         setStatus("CardDefId deve usar letras e números, sem espaços.", "bad");
         return;
       }
@@ -3585,7 +3682,7 @@
       el.newTags.value = "";
       renderTable();
       saveState();
-      setStatus(`<strong>${card.name}</strong> adicionada à base.`, "good", true);
+      setStatus(`${card.name} adicionada à base.`, "good");
     }
 
     function clearDeck() {
@@ -3617,6 +3714,10 @@
       const value = el.decodeInput.value.trim();
       if (!value) {
         setStatus("Cole um código para decodificar.", "bad");
+        return;
+      }
+      if (value.length > 5000) {
+        setStatus("Esse código está grande demais para ser um deck válido.", "bad");
         return;
       }
 
@@ -3663,7 +3764,7 @@
     }
 
     function addParticipant() {
-      const name = el.participantName.value.trim();
+      const name = cleanText(el.participantName.value, 34);
       if (!name) {
         setTournamentStatus("Digite um nome para adicionar.", "bad");
         return;
@@ -3780,9 +3881,19 @@
           deck.slice(0, 12).forEach(deckCard => {
             const row = document.createElement("div");
             row.className = "deck-mini-row";
-            row.innerHTML = hiddenSet.has(deckCard.id)
-              ? `<span>?</span><b>Carta oculta</b><span>?</span>`
-              : `<span>${deckCard.cost}</span><b>${deckCard.name}</b><span>${deckCard.power}</span>`;
+            const left = document.createElement("span");
+            const name = document.createElement("b");
+            const right = document.createElement("span");
+            if (hiddenSet.has(deckCard.id)) {
+              left.textContent = "?";
+              name.textContent = "Carta oculta";
+              right.textContent = "?";
+            } else {
+              left.textContent = deckCard.cost;
+              name.textContent = deckCard.name;
+              right.textContent = deckCard.power;
+            }
+            row.append(left, name, right);
             mini.appendChild(row);
           });
         } else {
@@ -3832,9 +3943,9 @@
       const activeProfile = getActiveProfile();
       const rules = getGeneratorRules();
       const seriesLabel = el.collectionMode.options[el.collectionMode.selectedIndex]?.textContent || "Todas as cartas cadastradas";
-      const availabilityLabel = el.ownershipMode.options[el.ownershipMode.selectedIndex]?.textContent || "Só minha coleção";
+      const availabilityLabel = el.ownershipMode.options[el.ownershipMode.selectedIndex]?.textContent || "Só coleção ativa";
       const chips = [
-        `Perfil: ${activeProfile ? activeProfile.name : "Minha coleção"}`,
+        `Perfil: ${activeProfile ? activeProfile.name : DEFAULT_COLLECTION_NAME}`,
         `Disponibilidade: ${availabilityLabel}`,
         `Séries: ${seriesLabel}`,
         `Arquétipo: ${ARCHETYPES[state.archetype].label}`,
@@ -3899,6 +4010,15 @@
       el.tournamentStatus.style.borderColor = tone === "good" ? "rgba(98, 218, 143, .55)" : tone === "bad" ? "rgba(255, 95, 95, .55)" : "rgba(255, 255, 255, .08)";
     }
 
+    function setRouletteResult(title, detail = "") {
+      if (!el.rouletteResult) return;
+      el.rouletteResult.textContent = "";
+      const strong = document.createElement("strong");
+      strong.textContent = title;
+      el.rouletteResult.appendChild(strong);
+      if (detail) el.rouletteResult.appendChild(document.createTextNode(detail));
+    }
+
     function updateRouletteModeUi() {
       const mode = el.rouletteMode.value;
       if (el.rouletteCustomField) el.rouletteCustomField.hidden = mode !== "custom";
@@ -3935,9 +4055,9 @@
     }
 
     function addChallenge() {
-      const challenge = el.challengeInput.value.trim();
+      const challenge = cleanText(el.challengeInput.value, 70);
       if (!challenge) {
-        el.rouletteResult.innerHTML = "<strong>Desafio vazio</strong>Digite um desafio para adicionar.";
+        setRouletteResult("Desafio vazio", "Digite um desafio para adicionar.");
         return;
       }
       state.challengeOptions = normalizeChallenges([...state.challengeOptions, challenge]);
@@ -3948,7 +4068,7 @@
       renderRoulette();
       saveState();
       playSound("tap");
-      el.rouletteResult.innerHTML = `<strong>Desafio adicionado</strong>${challenge}`;
+      setRouletteResult("Desafio adicionado", challenge);
     }
 
     function removeChallenge(index) {
@@ -3969,7 +4089,7 @@
       renderRoulette();
       saveState();
       playSound("success");
-      el.rouletteResult.innerHTML = "<strong>Desafios restaurados</strong>Sugestões rápidas voltaram para a roleta.";
+      setRouletteResult("Desafios restaurados", "Sugestões de torneio voltaram para a roleta.");
     }
 
     function plainText(value) {
@@ -3982,38 +4102,58 @@
     function applyChallengeToGenerator(challenge) {
       if (el.rouletteMode.value !== "challenges") return "";
       const text = plainText(challenge);
-      const rules = getGeneratorRules();
-      const nextRules = { ...rules, allowedCosts: [...rules.allowedCosts] };
+      const nextRules = { ...DEFAULT_GENERATOR_RULES, allowedCosts: [...DEFAULT_GENERATOR_RULES.allowedCosts] };
       const applied = [];
 
-      if (text.includes("custo par")) {
+      function setAllowedCosts(costs, label) {
+        nextRules.enabled = true;
+        nextRules.costMode = "custom";
+        nextRules.allowedCosts = costs.map(String);
+        applied.push(label);
+      }
+
+      const rangeMatch = text.match(/so custos?\s+([0-6])\s*-\s*([0-6])/);
+      if (rangeMatch) {
+        const start = Math.min(Number(rangeMatch[1]), Number(rangeMatch[2]));
+        const end = Math.max(Number(rangeMatch[1]), Number(rangeMatch[2]));
+        const costs = [];
+        for (let cost = start; cost <= end; cost++) costs.push(String(cost));
+        setAllowedCosts(costs, `custos ${start}-${end === 6 ? "6+" : end}`);
+      }
+
+      if (text.includes("custos pares") || text.includes("custo par")) {
         nextRules.enabled = true;
         nextRules.costMode = "even";
         applied.push("custos pares");
       }
-      if (text.includes("custo impar")) {
+      if (text.includes("custos impares") || text.includes("custo impar")) {
         nextRules.enabled = true;
         nextRules.costMode = "odd";
         applied.push("custos ímpares");
       }
       if (text.includes("sem carta custo 6") || text.includes("sem custo 6")) {
-        nextRules.enabled = true;
-        nextRules.costMode = "custom";
-        nextRules.allowedCosts = ["0", "1", "2", "3", "4", "5"];
-        applied.push("sem 6+");
+        setAllowedCosts(["0", "1", "2", "3", "4", "5"], "sem 6+");
+      }
+      if (text.includes("sem custo 1")) {
+        setAllowedCosts(["0", "2", "3", "4", "5", "6"], "sem custo 1");
       }
       if (text.includes("surpresa fixa") && !/\d+\s+cartas?\s+surpresa/.test(text)) {
         nextRules.enabled = true;
         nextRules.surpriseCount = Math.max(1, nextRules.surpriseCount);
         applied.push("1 surpresa");
       }
-      const surpriseMatch = text.match(/(\d+)\s+cartas?\s+surpresa/);
+      const surpriseMatch = text.match(/(\d+)\s+cartas?\s+(?:surpresa|ocultas?)/);
       if (surpriseMatch) {
         nextRules.enabled = true;
         nextRules.surpriseCount = Math.max(1, Math.min(12, Number(surpriseMatch[1])));
         applied.push(`${nextRules.surpriseCount} surpresas`);
       }
-      const choiceMatch = text.match(/escolha\s+(\d+)\s+cartas?/);
+      if (text.includes("carta oculta") && !surpriseMatch) {
+        nextRules.enabled = true;
+        nextRules.surpriseCount = Math.max(1, nextRules.surpriseCount);
+        applied.push("1 surpresa");
+      }
+      const choiceMatch = text.match(/escolha\s+(\d+)(?:\s+cartas?)?/);
       if (choiceMatch) {
         nextRules.enabled = true;
         nextRules.chosenCount = Math.max(1, Math.min(12, Number(choiceMatch[1])));
@@ -4027,17 +4167,18 @@
       }
       if (text.includes("aleatorio total")) {
         state.archetype = "random";
+        el.chaosRange.value = 100;
+        el.curveToggle.checked = false;
+        el.synergyToggle.checked = false;
+        updateChaosLabel();
         applied.push("Aleatório total");
       }
-      if (text.includes("caos 100")) {
-        el.chaosRange.value = 100;
+      const fixedChaos = text.match(/caos\s+(\d{1,3})%/);
+      if (fixedChaos) {
+        const value = Math.max(0, Math.min(100, Number(fixedChaos[1])));
+        el.chaosRange.value = value;
         updateChaosLabel();
-        applied.push("Caos 100%");
-      }
-      if (text.includes("caos baixo")) {
-        el.chaosRange.value = 20;
-        updateChaosLabel();
-        applied.push("Caos baixo");
+        applied.push(`Caos ${value}%`);
       }
       if (text.includes("caos sorteado")) {
         const value = Math.floor(Math.random() * 101);
@@ -4045,13 +4186,60 @@
         updateChaosLabel();
         applied.push(`Caos ${value}%`);
       }
-      if (text.includes("so cartas da colecao")) {
+      if (text.includes("caos baixo")) {
+        el.chaosRange.value = 20;
+        updateChaosLabel();
+        applied.push("Caos baixo");
+      }
+      if (text.includes("so colecao") || text.includes("so cartas da colecao")) {
         el.ownershipMode.value = "owned";
         applied.push("só coleção");
+      }
+      if (text.includes("todas liberadas")) {
+        el.ownershipMode.value = "all";
+        el.collectionMode.value = "all";
+        applied.push("todas cadastradas");
+      }
+      if (text.includes("base e s1/s2") || text.includes("base e serie 1/2")) {
+        el.collectionMode.value = "starter";
+        applied.push("base e S1/S2");
+      }
+      if (text.includes("ate serie 3")) {
+        el.collectionMode.value = "series3";
+        applied.push("até Série 3");
+      }
+      if (text.includes("sem serie 4/5")) {
+        el.collectionMode.value = "noPremium";
+        applied.push("sem S4/5");
+      }
+      if (text.includes("sem curva")) {
+        el.curveToggle.checked = false;
+        applied.push("sem curva");
+      }
+      if (text.includes("sem sinergia") || text.includes("curva/sinergia")) {
+        el.synergyToggle.checked = false;
+        applied.push("sem sinergia");
       }
       if (text.includes("sem fixar cartas")) {
         state.pinned.clear();
         applied.push("fixas limpas");
+      }
+
+      const archetypeMatches = [
+        ["destroy", "destroy"],
+        ["discard", "discard"],
+        ["move", "move"],
+        ["ongoing", "ongoing"],
+        ["on reveal", "reveal"],
+        ["control", "control"],
+        ["surfer", "surfer"],
+        ["zoo", "zoo"],
+        ["flex", "flex"]
+      ];
+      const match = archetypeMatches.find(([label]) => text.includes(label));
+      if (match) {
+        state.archetype = match[1];
+        applied.push(ARCHETYPES[match[1]].label);
       }
 
       if (!applied.length) return "";
@@ -4121,14 +4309,14 @@
 
     function rouletteOptions() {
       if (el.rouletteMode.value === "participants") return state.tournamentParticipants.map(participant => participant.name);
-      if (el.rouletteMode.value === "custom") return el.rouletteCustom.value.split("\n").map(item => item.trim()).filter(Boolean);
-      return state.challengeOptions;
+      if (el.rouletteMode.value === "custom") return normalizeChallenges(el.rouletteCustom.value.split("\n"));
+      return normalizeChallenges(state.challengeOptions);
     }
 
     function spinRoulette() {
       const options = rouletteOptions();
       if (!options.length) {
-        el.rouletteResult.innerHTML = "<strong>Sem opções</strong>Adicione participantes ou itens personalizados.";
+        setRouletteResult("Sem opções", "Adicione participantes ou itens personalizados.");
         return;
       }
       const winnerIndex = Math.floor(Math.random() * options.length);
@@ -4144,14 +4332,14 @@
       if (state.rouletteTimer) window.clearTimeout(state.rouletteTimer);
       playSound("spin");
       el.rouletteWheel.classList.add("spinning");
-      el.rouletteResult.innerHTML = "<strong>Girando...</strong>Aguardando o ponteiro parar.";
+      setRouletteResult("Girando...", "Aguardando o ponteiro parar.");
       renderRoulette();
       state.rouletteTimer = window.setTimeout(() => {
         state.rouletteResult = winner;
         el.rouletteWheel.classList.remove("spinning");
         const applied = applyChallengeToGenerator(winner);
         state.rouletteNote = applied || el.rouletteMode.options[el.rouletteMode.selectedIndex].textContent;
-        el.rouletteResult.innerHTML = `<strong>${winner}</strong>${state.rouletteNote}`;
+        setRouletteResult(winner, state.rouletteNote);
         playSound("win");
         renderRoulette();
         saveState();
@@ -4165,7 +4353,7 @@
       el.rouletteCount.textContent = `${options.length} opções`;
       renderRouletteWheel(options);
       if (state.rouletteResult) {
-        el.rouletteResult.innerHTML = `<strong>${state.rouletteResult}</strong>${state.rouletteNote || "Último resultado"}`;
+        setRouletteResult(state.rouletteResult, state.rouletteNote || "Último resultado");
       }
     }
 
@@ -4173,7 +4361,7 @@
       const colors = ["#ffd13d", "#4fd6e8", "#ff5f5f", "#62da8f", "#7aa5ff", "#ff9b45", "#d6f26a", "#c995ff"];
       el.rouletteWheel.style.transform = `rotate(${Number(state.rouletteRotation) || 0}deg)`;
       drawRouletteCanvas(options, colors);
-      if (!options.length) el.rouletteResult.innerHTML = "<strong>Sem opções</strong>Adicione participantes ou itens personalizados.";
+      if (!options.length) setRouletteResult("Sem opções", "Adicione participantes ou itens personalizados.");
     }
 
     function drawRouletteCanvas(options, colors) {
@@ -4310,49 +4498,53 @@
 
     function exportBackup() {
       saveState();
+      let savedState = {};
+      try {
+        savedState = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+      } catch (error) {
+        savedState = {};
+      }
       const payload = {
         exportedAt: new Date().toISOString(),
         app: "Marvel Snap Deck Lab",
-        state: JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"),
-        images: state.images
+        state: savedState,
+        images: sanitizeImages(state.images)
       };
       const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
       const url = URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = `snap-deck-lab-backup-${new Date().toISOString().slice(0, 10)}.json`;
+      link.download = `snap-deck-lab-dados-locais-${new Date().toISOString().slice(0, 10)}.json`;
       link.click();
       URL.revokeObjectURL(url);
-      setStatus("Backup exportado.", "good");
+      setStatus("Dados locais exportados.", "good");
     }
 
     async function importBackup(event) {
       const file = event.target.files && event.target.files[0];
       if (!file) return;
       try {
+        if (file.size > MAX_BACKUP_BYTES) throw new Error("arquivo grande demais");
         const payload = JSON.parse(await file.text());
-        if (!payload.state) throw new Error("backup inválido");
+        if (!payload || typeof payload !== "object" || !payload.state || typeof payload.state !== "object") throw new Error("dados inválidos");
         localStorage.setItem(STORAGE_KEY, JSON.stringify(payload.state));
-        if (payload.images) localStorage.setItem(IMAGE_STORAGE_KEY, JSON.stringify(payload.images));
+        if (payload.images) localStorage.setItem(IMAGE_STORAGE_KEY, JSON.stringify(sanitizeImages(payload.images)));
         loadState();
+        saveImages();
+        saveState();
         renderAll();
         renderTournament();
         renderRoulette();
-        setStatus("Backup carregado.", "good");
+        setStatus("Dados locais importados.", "good");
       } catch (error) {
-        setStatus("Esse backup não parece válido.", "bad");
+        setStatus("Esse arquivo de dados não parece válido.", "bad");
       } finally {
         el.backupInput.value = "";
       }
     }
 
-    function setStatus(message, tone = "neutral", html = false) {
-      el.status.textContent = "";
-      if (html) {
-        el.status.innerHTML = message;
-      } else {
-        el.status.textContent = message;
-      }
+    function setStatus(message, tone = "neutral") {
+      el.status.textContent = message;
       el.status.style.borderColor = tone === "good" ? "rgba(98, 218, 143, .55)" : tone === "bad" ? "rgba(255, 95, 95, .55)" : "rgba(255, 255, 255, .08)";
     }
 
@@ -4369,7 +4561,7 @@
       state.pinned = new Set();
       state.banned = new Set();
       state.missing = new Set();
-      state.collectionProfiles = [normalizeProfile({ id: DEFAULT_COLLECTION_ID, name: "Minha coleção", missing: [] })];
+      state.collectionProfiles = [normalizeProfile({ id: DEFAULT_COLLECTION_ID, name: DEFAULT_COLLECTION_NAME, missing: [] })];
       state.activeCollectionId = DEFAULT_COLLECTION_ID;
       state.tournamentParticipants = [];
       state.generatorRules = { ...DEFAULT_GENERATOR_RULES, allowedCosts: [...DEFAULT_GENERATOR_RULES.allowedCosts] };
@@ -4396,8 +4588,8 @@
       el.rouletteMode.value = "participants";
       el.rouletteCustom.value = "";
       el.rouletteWheel.style.transform = "rotate(0deg)";
-      el.rouletteResult.innerHTML = "<strong>Aguardando</strong>Use os participantes do torneio ou uma lista própria.";
-      el.newCollectionName.value = "Minha coleção";
+      setRouletteResult("Aguardando", "Use os participantes do torneio ou uma lista própria.");
+      el.newCollectionName.value = DEFAULT_COLLECTION_NAME;
       updateChaosLabel();
       renderAll();
       setStatus("Base resetada.", "good");
