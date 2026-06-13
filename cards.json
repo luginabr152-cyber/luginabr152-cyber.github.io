@@ -5664,6 +5664,14 @@
         "scaler"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/ZombieSentry-3a1f4f6f33f4603f1f01e76d2a00723e8c1ac68c12851a677bea3aef10345653.webp?width=350&quality=80"
-    }
-  ]
-}
+    },
+    {  
+      "name": "Jeff the Baby Dolphin!?",
+      "id": "JefftheBabyDolphin!?",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags" [
+        "move"
+        ],
+      "imageUrl": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/jeff-the-baby-dolphin!-.webp?v=948"
