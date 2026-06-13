@@ -1301,8 +1301,8 @@
                 <input type="checkbox" id="synergyToggle" checked="">
               </label>
               <label class="toggle">
-                <span>Incluir nome no código</span>
-                <input type="checkbox" id="nameToggle" checked="">
+                <span>Código oficial Snap</span>
+                <input type="checkbox" id="nameToggle" checked="" disabled>
               </label>
               <label class="toggle">
                 <span>Seed fixa</span>
@@ -3190,8 +3190,22 @@
       return payload;
     }
 
+    function compactCardBase(id) {
+      const safeId = safeCardId(id);
+      return safeId.slice(0, 1) + safeId.slice(1).replace(/[aeiou]/ig, "");
+    }
+
+    function compactCardToken(id) {
+      const safeId = safeCardId(id);
+      return `${compactCardBase(safeId)}${safeId.length.toString(36).toUpperCase()}`;
+    }
+
+    function encodeOfficialDeck(deck = state.currentDeck) {
+      return encodeUtf8Base64(deck.map(card => compactCardToken(card.id)).join(","));
+    }
+
     function encodeDeck(deck, name) {
-      return encodeUtf8Base64(JSON.stringify(buildDeckPayload(deck, name, true)));
+      return encodeOfficialDeck(deck);
     }
 
     function buildDeckList(deck, code) {
@@ -3211,7 +3225,9 @@
     }
 
     function decodeUtf8Base64(value) {
-      const binary = atob(value.trim());
+      let normalized = value.trim().replace(/-/g, "+").replace(/_/g, "/");
+      while (normalized.length % 4) normalized += "=";
+      const binary = atob(normalized);
       const bytes = Uint8Array.from(binary, char => char.charCodeAt(0));
       return new TextDecoder().decode(bytes);
     }
@@ -3224,12 +3240,12 @@
       }
 
       if (!state.deckRevealed) {
-        el.importCode.value = encodeUtf8Base64(JSON.stringify(buildDeckPayload()));
+        el.importCode.value = encodeDeck(state.currentDeck, el.deckName.value.trim());
         el.deckList.value = "Deck oculto até revelar.";
         return;
       }
 
-      el.importCode.value = encodeUtf8Base64(JSON.stringify(buildDeckPayload()));
+      el.importCode.value = encodeDeck(state.currentDeck, el.deckName.value.trim());
       el.deckList.value = buildDeckList(state.currentDeck, el.importCode.value);
     }
 
@@ -3763,6 +3779,101 @@
       }
     }
 
+    function extractDeckCodeCandidates(value) {
+      const candidates = new Set();
+      const raw = String(value || "").trim();
+      const base64Pattern = /^[A-Za-z0-9+/_-]{16,}={0,2}$/;
+      if (base64Pattern.test(raw)) candidates.add(raw);
+      raw.split(/\s+/).forEach(part => {
+        const cleaned = part.replace(/^[#"'`([{<]+/, "").replace(/[#"'\])}>,.;:]+$/g, "");
+        if (base64Pattern.test(cleaned)) candidates.add(cleaned);
+      });
+      return [...candidates];
+    }
+
+    function parseExportedDeckNames(value) {
+      return String(value || "")
+        .split("\n")
+        .map(line => line.match(/^#\s*\((\d+)\)\s+(.+)$/))
+        .filter(Boolean)
+        .map(match => ({
+          cost: Number(match[1]),
+          name: cleanText(match[2], 64)
+        }));
+    }
+
+    function guessedIdsFromName(name) {
+      const normalized = cleanText(name, 64)
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^A-Za-z0-9]/g, "");
+      const ids = [normalized];
+      if (normalized.startsWith("The") && normalized.length > 3) ids.push(normalized.slice(3));
+      return [...new Set(ids.filter(Boolean))];
+    }
+
+    function findCardByCompactToken(token, exportedNames = []) {
+      const cleanToken = safeCardId(token);
+      if (!cleanToken) return { id: "", card: null, name: "", cost: null, token };
+      const expectedLength = parseInt(cleanToken.slice(-1), 36);
+      const base = cleanToken.slice(0, -1).toLowerCase();
+
+      const exact = state.cards.find(card => compactCardToken(card.id).toLowerCase() === cleanToken.toLowerCase());
+      if (exact) return { id: exact.id, card: exact, name: exact.name, cost: exact.cost, token };
+
+      const byAlias = state.cards.find(card => {
+        const id = safeCardId(card.id);
+        return compactCardBase(id).toLowerCase() === base && (!Number.isFinite(expectedLength) || id.length === expectedLength);
+      });
+      if (byAlias) return { id: byAlias.id, card: byAlias, name: byAlias.name, cost: byAlias.cost, token };
+
+      for (const exported of exportedNames) {
+        const guessed = guessedIdsFromName(exported.name).find(id => (
+          compactCardBase(id).toLowerCase() === base && (!Number.isFinite(expectedLength) || id.length === expectedLength)
+        ));
+        if (guessed) return { id: guessed, card: null, name: exported.name, cost: exported.cost, token };
+      }
+
+      return { id: base, card: null, name: cleanToken, cost: null, token };
+    }
+
+    function parseDecodedDeckCode(decoded, originalInput) {
+      const exportedNames = parseExportedDeckNames(originalInput);
+      try {
+        const payload = JSON.parse(decoded);
+        const cards = Array.isArray(payload.Cards) ? payload.Cards : [];
+        return {
+          format: "JSON",
+          entries: cards.map(entry => {
+            const id = safeCardId(entry.CardDefId);
+            const card = getCard(id);
+            return { id, card, name: card ? card.name : id, cost: card ? card.cost : null, token: id };
+          }).filter(entry => entry.id)
+        };
+      } catch (error) {
+        const tokens = decoded.split(",").map(token => token.trim()).filter(Boolean);
+        if (!tokens.length || tokens.some(token => !/^[A-Za-z0-9]+$/.test(token))) return null;
+        return {
+          format: "compacto",
+          entries: tokens.map(token => findCardByCompactToken(token, exportedNames)).filter(entry => entry.id)
+        };
+      }
+    }
+
+    function decodeDeckInput(value) {
+      const candidates = extractDeckCodeCandidates(value);
+      for (const candidate of candidates) {
+        try {
+          const decoded = decodeUtf8Base64(candidate);
+          const parsed = parseDecodedDeckCode(decoded, value);
+          if (parsed && parsed.entries.length) return { ...parsed, code: candidate, decoded };
+        } catch (error) {
+          // Tenta o próximo candidato.
+        }
+      }
+      return null;
+    }
+
     function decodeDeck() {
       el.decodedDeck.innerHTML = "";
       const value = el.decodeInput.value.trim();
@@ -3776,31 +3887,32 @@
       }
 
       try {
-        const payload = JSON.parse(decodeUtf8Base64(value));
-        const cards = Array.isArray(payload.Cards) ? payload.Cards : [];
-        cards.forEach((entry, index) => {
-          const id = entry.CardDefId;
-          const card = getCard(id);
+        const parsed = decodeDeckInput(value);
+        if (!parsed) throw new Error("deck inválido");
+        parsed.entries.forEach((entry, index) => {
+          const card = entry.card;
           const item = document.createElement("div");
           item.className = "decoded-item";
 
           const name = document.createElement("strong");
-          name.textContent = `${index + 1}. ${card ? card.name : id}`;
+          name.textContent = `${index + 1}. ${card ? card.name : entry.name || entry.id}`;
 
           const meta = document.createElement("span");
-          meta.textContent = card ? `${card.cost}/${card.power}` : "fora da base";
+          meta.textContent = card
+            ? `${card.cost}/${card.power} · ${card.id}`
+            : `${Number.isFinite(entry.cost) ? `${entry.cost}/? · ` : ""}${entry.id} · fora da base`;
           item.appendChild(name);
           item.appendChild(meta);
           el.decodedDeck.appendChild(item);
         });
 
-        if (!cards.length) {
+        if (!parsed.entries.length) {
           const empty = document.createElement("div");
           empty.className = "empty-note";
           empty.textContent = "Código lido, mas sem cartas.";
           el.decodedDeck.appendChild(empty);
         }
-        setStatus("Código decodificado.", "good");
+        setStatus(`Código decodificado (${parsed.format}).`, "good");
       } catch (error) {
         setStatus("Esse código não parece ser um deck válido.", "bad");
       }
