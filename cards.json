@@ -1,0 +1,5669 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-06-13",
+  "source": "Snap Deck Lab cards.json",
+  "cards": [
+    {
+      "name": "Abomination",
+      "id": "Abomination",
+      "cost": 5,
+      "power": 9,
+      "series": "Starter",
+      "tags": [
+        "no-ability",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Abomination-1a5e6f63520f5b991a8000712f6ee5c99e8a5b1fdafc1c30e8016452894b58a5.webp?width=350&quality=80"
+    },
+    {
+      "name": "Absorbing Man",
+      "id": "AbsorbingMan",
+      "cost": 4,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AbsorbingMan-cd9833800ef006ee78cfd1d001782d0ad24db55e0bc0313f4dd3ad6132ddd39b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Adam Warlock",
+      "id": "AdamWarlock",
+      "cost": 2,
+      "power": 0,
+      "series": "S3",
+      "tags": [
+        "control",
+        "scaler",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AdamWarlock-edd12a1d8618f8c339b0f945dc8b39ccd37401172c35a63a0e10287a0ec2da1b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Aero",
+      "id": "Aero",
+      "cost": 5,
+      "power": 9,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Aero-bffb89eceb90cf3863bbd32a88e911460f50ceb9cb190a6426fa8f2077e54d37.webp?width=350&quality=80"
+    },
+    {
+      "name": "Agamotto",
+      "id": "Agamotto",
+      "cost": 5,
+      "power": 10,
+      "series": "S4/5",
+      "tags": [
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Agamotto-de74a28061069c59fe5991876d23d57a3586a2c8b11eb3afd1d8f73b70dd8283.webp?width=350&quality=80"
+    },
+    {
+      "name": "Agatha Harkness",
+      "id": "AgathaHarkness",
+      "cost": 6,
+      "power": 12,
+      "series": "S3",
+      "tags": [
+        "payoff",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AgathaHarkness-57e303897919d33f26823d65e840f0c21e69cea7c901ed0cc45e9831bacc7181.webp?width=350&quality=80"
+    },
+    {
+      "name": "Agent 13",
+      "id": "Agent13",
+      "cost": 1,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Agent13-13b8e1d703500e08840e9f30ac37fbcaa678a2554469d2c776cf25115a3f7099.webp?width=350&quality=80"
+    },
+    {
+      "name": "Agent Coulson",
+      "id": "AgentCoulson",
+      "cost": 3,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AgentCoulson-51560ee798dea299987a1cb16af99cbd2515524aadc43fd73324074f905797de.webp?width=350&quality=80"
+    },
+    {
+      "name": "Agent Venom",
+      "id": "AgentVenom",
+      "cost": 2,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AgentVenom-93d5b4bf2b3b0db567cb00e5da8ff1150ecf335fb8aa505faba1d3383910e2cb.webp?width=350&quality=80"
+    },
+    {
+      "name": "Agony",
+      "id": "Agony",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Agony-bc7a99adadd46713e87a1b57c81dfc7b7fb05dc08c15ecb86820018b071e140a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Air-Walker",
+      "id": "AirWalker",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AirWalker-73414df7d9cf249ca3306aee7e647b33e857b2023f3c006e3787c80f5fb6e0a0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ajax",
+      "id": "Ajax",
+      "cost": 5,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Ajax-ee03a2793fedba17c5c98dec63efe08e8971974b7c9a9f23f10f0e3aecdec36d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Alioth",
+      "id": "Alioth",
+      "cost": 6,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "move",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Alioth-89e81a74c70a1f709956fa48d4fe1c3b14b9abd4c908330f4470c2c565ffe821.webp?width=350&quality=80"
+    },
+    {
+      "name": "America Chavez",
+      "id": "AmericaChavez",
+      "cost": 1,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AmericaChavez-b5c51b4fa1a2a087d0900d9c5bdbac95b26515c1a1666b6f5f89773c636e10d9.webp?width=350&quality=80"
+    },
+    {
+      "name": "Angel",
+      "id": "Angel",
+      "cost": 2,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "destroy"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Angel-3b63ff1bf336e4c8be8051d9a90d3cfcec93852d48f02bf47c8eed5bbbc56dd0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Angela",
+      "id": "Angela",
+      "cost": 2,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Angela-0cea3748026f99e613f425496c71cce2da92b8d6f71f1811eb99a65bf899ec49.webp?width=350&quality=80"
+    },
+    {
+      "name": "Annihilus",
+      "id": "Annihilus",
+      "cost": 5,
+      "power": 8,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "destroy",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Annihilus-16cbb5e1d8216fb793a1e1bfcf9cd08717e2e6d514df386773d3ced62eaca848.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ant Man",
+      "id": "AntMan",
+      "cost": 1,
+      "power": 1,
+      "series": "Starter",
+      "tags": [
+        "ongoing",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AntMan-1fc54d6792e09d72aafbaeefdff87c9a9cfdee9979a3f54bcff90bf4ffac0df2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Anti-Venom",
+      "id": "AntiVenom",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AntiVenom-10aafd0798bf218d67a8b00c83b652d1bb27b547eb7f705f135b69df253213e1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Apocalypse",
+      "id": "Apocalypse",
+      "cost": 6,
+      "power": 8,
+      "series": "S1/2",
+      "tags": [
+        "discard",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Apocalypse-e37d62392283c3865caa3b1201d92974f22563779ba399bc2e86c28ffbb81c3e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Apocalypse, Celestials' Chosen",
+      "id": "ApocalypseCelestialsChosen",
+      "cost": 4,
+      "power": 9,
+      "series": "Unknown",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "payoff",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ApocalypseCelestialsChosen-92417f5fe71aa050879262f2ba79dfa20e741148487c3e496aae0a2cbf195ffe.webp?width=350&quality=80"
+    },
+    {
+      "name": "Araña",
+      "id": "Arana",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "move",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Arana-ce1e3385e13b4fd68e5039b5773519248525e684e90c633d13be59daa95f2ebf.webp?width=350&quality=80"
+    },
+    {
+      "name": "Archangel Horseman of Death",
+      "id": "ArchangelHorseman",
+      "cost": 2,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ArchangelHorseman-c6ef4476e8819a75c5d8916ef20c713d8684f386cdf1ec5db6cdd77ad1377d82.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ares",
+      "id": "Ares",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Ares-c277a0f25a9c713460932c6b32ca20f91f63c540cbf688c9af865c54d1f9970c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Arishem",
+      "id": "Arishem",
+      "cost": 7,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Arishem-da554f6b100539a484a49366e41b92aac8663a496a9897d838b9e2d4adfb57c3.webp?width=350&quality=80"
+    },
+    {
+      "name": "Armor",
+      "id": "Armor",
+      "cost": 2,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "control",
+        "destroy",
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Armor-64c0e43b123e5d0b331ff3c82a95032e652115602522120345070c9861bd041b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Arnim Zola",
+      "id": "ArnimZola",
+      "cost": 6,
+      "power": 0,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "on-reveal",
+        "payoff",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ArnimZola-b3c51fc02cc24f0533efa07f905d77088ad28aff054df7fbb5fff1017548ce67.webp?width=350&quality=80"
+    },
+    {
+      "name": "Attuma",
+      "id": "Attuma",
+      "cost": 4,
+      "power": 10,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "payoff",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Attuma-c0fcbee480c1a363c6fd507fc244d11c238260bfff1ede9f19904942b46a8f97.webp?width=350&quality=80"
+    },
+    {
+      "name": "Aurora",
+      "id": "Aurora",
+      "cost": 6,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "combo",
+        "on-reveal",
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Aurora-006817280b4633ba9604a2c8749b85e6109cb846cc8453a66782d1ace5a729b2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Awesome Andy",
+      "id": "AwesomeAndy",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AwesomeAndy-0d7c258a4f78d9916ef8b162c31fe87ee7e743d15f37fedf6d9966fbc3c39ee4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Baron Mordo",
+      "id": "BaronMordo",
+      "cost": 2,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BaronMordo-997b8a7b87ed63b83c55fd8e04792939e4452c895c6e721c353cecd80d3d161a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Baron Zemo",
+      "id": "BaronZemo",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BaronZemo-86f5d2a96a06a9b406680b574b3cd9322a02a07ed3a2203050dfd22d8d703a75.webp?width=350&quality=80"
+    },
+    {
+      "name": "Bast",
+      "id": "Bast",
+      "cost": 1,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Bast-1028c1afae5b18b37730507787f50c7e647302ef27ff83ca15fa4577730f8df8.webp?width=350&quality=80"
+    },
+    {
+      "name": "Bastion",
+      "id": "Bastion",
+      "cost": 4,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Bastion-628fd537e3a54f7612dc34986b3f8cf6c0418220bb0616327735776d8587a9a4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Batroc the Leaper",
+      "id": "Batroc",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Batroc-2bcaf53e9a5cd28b192d76c4e34fae1acc9d046336d4b2104d20b09d3f5f8cc7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Beast",
+      "id": "Beast",
+      "cost": 3,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Beast-d4c58005dde47723df15dd5885f862c3875cd9cfc6b46af3a57d719b97bed5e1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Beta Ray Bill",
+      "id": "BetaRayBill",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BetaRayBill-f37e8c5a60a22b9ea64e9f3e5a0e6c6abf1a84406792d8ff119723b4383b3813.webp?width=350&quality=80"
+    },
+    {
+      "name": "Bishop",
+      "id": "Bishop",
+      "cost": 3,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Bishop-967de4838d391d6082e9d7717d070a4fdac0bee9f1f3432e5fdfef295d64041c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Black Bolt",
+      "id": "BlackBolt",
+      "cost": 5,
+      "power": 8,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BlackBolt-5921b84efcb93e678a3232e0c786d1a377c4e18b4652cf530dba731c35abf5e7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Black Cat",
+      "id": "BlackCat",
+      "cost": 1,
+      "power": 4,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BlackCat-cefb454d4c241f1699a8ddb9326a10d42946ae5786c97da4b604ddb5a7e5f6c6.webp?width=350&quality=80"
+    },
+    {
+      "name": "Black Knight",
+      "id": "BlackKnight",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BlackKnight-d6e28c53a6363ebcc48ec9808b13355c95e4af48436473e04773c564ca163f4b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Black Panther",
+      "id": "BlackPanther",
+      "cost": 5,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BlackPanther-ebacd0b1a84a0c3c2c68c8e09ecc53ebb8655cd322d9e67513a01a05784f7e9d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Black Swan",
+      "id": "BlackSwan",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BlackSwan-5971f40a57659dc04bef62f8022f30fafb93a9b3d33d773fd713ecfc1fada914.webp?width=350&quality=80"
+    },
+    {
+      "name": "Black Widow",
+      "id": "BlackWidow",
+      "cost": 3,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "activate",
+        "junk",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BlackWidow-91774f67edb79f01c51da86ed3e47900f8c85cedcbe88456c661c3723385300b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Blade",
+      "id": "Blade",
+      "cost": 1,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Blade-4ed76380b64240a9bf0e796ebc37fb24dd30be51cbf9dfc0cda85dd13abdfe68.webp?width=350&quality=80"
+    },
+    {
+      "name": "Blink",
+      "id": "Blink",
+      "cost": 5,
+      "power": 8,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Blink-4e8126f802352ecfc747f23a587591c73cefd012971c3a5e227a72603e750026.webp?width=350&quality=80"
+    },
+    {
+      "name": "Blob",
+      "id": "Blob",
+      "cost": 6,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Blob-901b89907b3ab49d27b7cc51cb67a0fed4b1cd254c22e3072db9e978acb648e8.webp?width=350&quality=80"
+    },
+    {
+      "name": "Blue Marvel",
+      "id": "BlueMarvel",
+      "cost": 5,
+      "power": 3,
+      "series": "Starter",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BlueMarvel-c9f312f401653dfc4461133b1473fdcb084e350827ac0b2753a76f6a327fdb2f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Brood",
+      "id": "Brood",
+      "cost": 3,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "token",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Brood-d62c26be9b714f453f4272b933a1f211a12b9b28681f7bba8397b4ac3ebad3be.webp?width=350&quality=80"
+    },
+    {
+      "name": "Bruce Banner",
+      "id": "BruceBanner",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BruceBanner-44212b812501a986b844440effc0dba351c7a7ea4fd39596f3d966cd953cbb67.webp?width=350&quality=80"
+    },
+    {
+      "name": "Bucky Barnes",
+      "id": "BuckyBarnes",
+      "cost": 2,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "destroy"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/BuckyBarnes-3305633e622d485dd686259e041a49252909d9111e29e8f6c3ebacdc73db0a33.webp?width=350&quality=80"
+    },
+    {
+      "name": "Bullseye",
+      "id": "Bullseye",
+      "cost": 3,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "control",
+        "discard",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Bullseye-f1d8ca2a0b3345ed7f85561179b1c5af35784a6e187b7923873f45ed69ed87c8.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cable",
+      "id": "Cable",
+      "cost": 2,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Cable-c82f36cf45abe7b85fe0bc89d9ea979cdbdf77b507d0120ae1a53e8c06077f6a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Caiera",
+      "id": "Caiera",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "destroy",
+        "ongoing",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Caiera-dcb655ab15c9a38d0492e504776e0f187e72107a416a0f9f23d4d1f99263127f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Caliban Horseman of Pestilence",
+      "id": "CalibanHorseman",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/CalibanHorseman-b3a1d67138bf8de96b524a8c74e52c82a4f32b306d581bea2f65acb7750794b5.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cannonball",
+      "id": "Cannonball",
+      "cost": 5,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "destroy",
+        "junk",
+        "move",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Cannonball-26252ed567d427930b44d0994ac6f34250c2c56c73abfc5a1f90fd6247394009.webp?width=350&quality=80"
+    },
+    {
+      "name": "Captain America",
+      "id": "CaptainAmerica",
+      "cost": 3,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/CaptainAmerica-5152ba5b103593cd4227da4e9272aa3da068285b7a18a1b9dfbd1509ddb1ae45.webp?width=350&quality=80"
+    },
+    {
+      "name": "Captain Carter",
+      "id": "CaptainCarter",
+      "cost": 3,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "ongoing",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/CaptainCarter-e82257ca297e64981720f5a2e131f2160bb11f819647de3f6d8094bdabb8c99d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Captain Marvel",
+      "id": "CaptainMarvel",
+      "cost": 4,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/CaptainMarvel-4c00da41856c9c28041831c385110013ead1c7cde17334d4199a93d0a0d0e6d8.webp?width=350&quality=80"
+    },
+    {
+      "name": "Carnage",
+      "id": "Carnage",
+      "cost": 2,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "destroy",
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Carnage-5747bb77f8030b904c64d07795c9541a26aa7d6884ca2e400c8db64bd257a114.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cassandra Nova",
+      "id": "CassandraNova",
+      "cost": 3,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/CassandraNova-310fcf41344b918e8eb42b393947a6744bddcf04ef521efd964efe998d988476.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cerebro",
+      "id": "Cerebro",
+      "cost": 3,
+      "power": 0,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Cerebro-a81b5612aed537fffe1097f2b96bae653ef6ac22c09a6cc04fa5b60e19a8f046.webp?width=350&quality=80"
+    },
+    {
+      "name": "Chamber",
+      "id": "Chamber",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Chamber-42341b8d92b80cba71459c29272b9338cc6e4a1ed4ad9641b66a42e0de7e5041.webp?width=350&quality=80"
+    },
+    {
+      "name": "Chameleon",
+      "id": "Chameleon",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Chameleon-e69d8a4463dc73310dc01b19d5b9842ace32731cbc9f124e164d89522dab253a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Clea",
+      "id": "Clea",
+      "cost": 1,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Clea-a529c8d5093e35a12c89156e0a0fb6b6cc4ad7599869536dde92d2e93bc54138.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cloak",
+      "id": "Cloak",
+      "cost": 2,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Cloak-248d08214f0630def092261598e1da5745245cc595df15e0873d507f42e3123e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cobra",
+      "id": "Cobra",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "destroy"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Cobra-cf07ad0b1a72c88a69e450b259e5c43bd851c8c81c6d0472ed1557d149d43b51.webp?width=350&quality=80"
+    },
+    {
+      "name": "Colleen Wing",
+      "id": "ColleenWing",
+      "cost": 2,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ColleenWing-56ad58ce689ec401b7b51afc1a7d7b1f32282acd8028e3365754a6869b1dc313.webp?width=350&quality=80"
+    },
+    {
+      "name": "Colonel America",
+      "id": "ColonelAmerica",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ColonelAmerica-1380b239ce50c3e30d8a9985efe90c6994a66f3fc2c0c77f0f207ce13a38f1ee.webp?width=350&quality=80"
+    },
+    {
+      "name": "Colossus",
+      "id": "Colossus",
+      "cost": 2,
+      "power": 4,
+      "series": "Starter",
+      "tags": [
+        "control",
+        "destroy",
+        "move",
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Colossus-0da05b4c4eeb6580a0e5f29347972ae1f24f39116d8caad2b6eebd324b2bc2e6.webp?width=350&quality=80"
+    },
+    {
+      "name": "Copycat",
+      "id": "Copycat",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Copycat-180f98d130f6de01196c851f43efc41eb4b3974349e376584ae98730aff9cddb.webp?width=350&quality=80"
+    },
+    {
+      "name": "Corvus Glaive",
+      "id": "CorvusGlaive",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/CorvusGlaive-8705d5657029e15e47e652e854681bc0ac720df79d71e66728e733d452dda8b0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cosmic Ghost Rider",
+      "id": "CosmicGhostRider",
+      "cost": 5,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "move",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/CosmicGhostRider-9db49a40a4ff88b2ab8f5f5c7eb19dc04463be8916464a9bbac3ab42d1366a5c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cosmo",
+      "id": "Cosmo",
+      "cost": 3,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Cosmo-7c784d30fa613bc12945171316dd1d0aa143027be5fe0be9e276f354eea3f5a7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Crossbones",
+      "id": "Crossbones",
+      "cost": 4,
+      "power": 10,
+      "series": "S3",
+      "tags": [
+        "payoff",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Crossbones-0b3a174dac09c27c5810270833390aa39a821cc6b5b85fc5ebf5772ca2f20c7d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Crystal",
+      "id": "Crystal",
+      "cost": 3,
+      "power": 4,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Crystal-f69aeeda4d27233c680b3ed2a40ed1461e5594f001f981c86e711dbc595e467c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cull Obsidian",
+      "id": "CullObsidian",
+      "cost": 4,
+      "power": 10,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/CullObsidian-19c214893ef96378120cb5018a6ba6e4c18ef40d90d92e3d6e7a79e809956a36.webp?width=350&quality=80"
+    },
+    {
+      "name": "Cyclops",
+      "id": "Cyclops",
+      "cost": 3,
+      "power": 5,
+      "series": "Starter",
+      "tags": [
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Cyclops-32967725435aff7a8edb046585bd4813d806cbae32141bf367a21ff6f2861049.webp?width=350&quality=80"
+    },
+    {
+      "name": "Dagger",
+      "id": "Dagger",
+      "cost": 2,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "move",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Dagger-36fc61c776919faf73422806151c91ff8cd28203715b1e7e917aaed3ca54354c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Daken",
+      "id": "Daken",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Daken-34f0ce7b4156e7fa3acf7b91a1e4d5e44bca8ff12bd20e07c0259297f1ae94c5.webp?width=350&quality=80"
+    },
+    {
+      "name": "Danger",
+      "id": "Danger",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "destroy"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Danger-4865c09706519d32e89e06ff35af10a821fba2d6861614724e258219a68af983.webp?width=350&quality=80"
+    },
+    {
+      "name": "Daredevil",
+      "id": "Daredevil",
+      "cost": 2,
+      "power": 3,
+      "series": "S3",
+      "tags": [],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Daredevil-523c0c2ade3acb03dbb53bc68c970b32e3a0b83c3048406dff30cba20a41f93e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Darkhawk",
+      "id": "Darkhawk",
+      "cost": 5,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Darkhawk-989e3e43fb1b0abb4356482d3417f706b6fdbf4c6ad9cdfb3143107159754244.webp?width=350&quality=80"
+    },
+    {
+      "name": "Dazzler",
+      "id": "Dazzler",
+      "cost": 2,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Dazzler-df20d92a8f4f5047620bcf81ea4014b5fe5e49f8496cfa1b22cebc24f9b9ee25.webp?width=350&quality=80"
+    },
+    {
+      "name": "Deadpool",
+      "id": "Deadpool",
+      "cost": 1,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "combo",
+        "destroy",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Deadpool-a5dc40fe983c98a608ace9b8229bb6d9a88f1ff3e55d980879bd84b41033a16f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Death",
+      "id": "Death",
+      "cost": 8,
+      "power": 12,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Death-0c263d953ae433165a5fb88dd65a98719c1b58cd735a7b8d0e0bcb9cc65b7334.webp?width=350&quality=80"
+    },
+    {
+      "name": "Deathlok",
+      "id": "Deathlok",
+      "cost": 3,
+      "power": 6,
+      "series": "S1/2",
+      "tags": [
+        "destroy",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Deathlok-19ad022b2c15de6a657cd79f830ffbb412a547f00a2e012ec658882b80a62a3f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Debrii",
+      "id": "Debrii",
+      "cost": 3,
+      "power": 8,
+      "series": "S3",
+      "tags": [
+        "junk",
+        "on-reveal",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Debrii-d47a0c6a0b8fbd8790f54208198a0875f2c7213d390ff435ff98cf452d88af5d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Destroyer",
+      "id": "Destroyer",
+      "cost": 6,
+      "power": 18,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Destroyer-5c141cc201b642c4569b084860a32bea48227624abd470fb3d78d72bcf5aeca3.webp?width=350&quality=80"
+    },
+    {
+      "name": "Devil Dinosaur",
+      "id": "DevilDinosaur",
+      "cost": 5,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/DevilDinosaur-24f350e96efc0c27d32e67f870249470fa46733a5ef9de7f90de2932b83e2d02.webp?width=350&quality=80"
+    },
+    {
+      "name": "Doctor Doom",
+      "id": "DrDoom",
+      "cost": 6,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/DrDoom-1ef7c32891bf28433b99bfe6fad2dc7c03db6c45d23090abbbea70f8d165e583.webp?width=350&quality=80"
+    },
+    {
+      "name": "Doctor Doom 2099",
+      "id": "Doom2099",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Doom2099-5d0aefd3ff146bacf493d5824efdf7048b68b48b8d37c50b4c94357d03415216.webp?width=350&quality=80"
+    },
+    {
+      "name": "Doctor Octopus",
+      "id": "DoctorOctopus",
+      "cost": 4,
+      "power": 8,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/DoctorOctopus-98e7beadcf064bc930c86c9ca65b02645472bd60599281fdca0c845e7a2516ae.webp?width=350&quality=80"
+    },
+    {
+      "name": "Doctor Strange",
+      "id": "DoctorStrange",
+      "cost": 2,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/DoctorStrange-b05d7d9c7f09c8981d5800833bbfe8f8d27777917e7907e15d0f3586ba484f1e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Domino",
+      "id": "Domino",
+      "cost": 2,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Domino-829cb57e7b9d288abc0ae195a3ee1c9acd9bf38cd45ad39bd47fb583450c8e54.webp?width=350&quality=80"
+    },
+    {
+      "name": "Dormammu",
+      "id": "Dormammu",
+      "cost": 7,
+      "power": 13,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Dormammu-c0c14f507593afcee750a12f46329abe190f656cbda7d7135e3a7e17bd8a9984.webp?width=350&quality=80"
+    },
+    {
+      "name": "Dracula",
+      "id": "Dracula",
+      "cost": 4,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Dracula-eb7945f8cc665a7f8fc16f2a664361c2c7653918c3fff0525cbc0bca44aea9c8.webp?width=350&quality=80"
+    },
+    {
+      "name": "Dragon Lord",
+      "id": "DragonLord",
+      "cost": 5,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/DragonLord-e4c12c7db88fcb783bbbe44041c6c03bd5d0236f6d825ff1c725fb24cd576d27.webp?width=350&quality=80"
+    },
+    {
+      "name": "Dragon of the Moon",
+      "id": "DragonOfTheMoon",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/DragonOfTheMoon-2ef736b691cf80f71922a1699eecaa52a38632d5335e3298e2e7bb52ed332742.webp?width=350&quality=80"
+    },
+    {
+      "name": "Drax",
+      "id": "Drax",
+      "cost": 4,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Drax-c253f7b25e347e839f5a3f01a39a83c0716996d89ff0d960c057824720d65820.webp?width=350&quality=80"
+    },
+    {
+      "name": "Drax, Avatar Of Life",
+      "id": "DraxAvatarOfLife",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/DraxAvatarOfLife-edc0757ab13a29b652728e33f0dbe5fe564e4f0abb229026d2d8a80a79457deb.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ebony Maw",
+      "id": "EbonyMaw",
+      "cost": 1,
+      "power": 7,
+      "series": "S1/2",
+      "tags": [
+        "control",
+        "ongoing",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/EbonyMaw-a7e745b4b1068a1425e6d497881c8227fbee3d41d4f70b4808e0ddfe14cbc524.webp?width=350&quality=80"
+    },
+    {
+      "name": "Echo",
+      "id": "Echo",
+      "cost": 1,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "move",
+        "ongoing",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Echo-2eb40a319f3d4247600afb0dfdd518690daa71557ffc2875cc68ddf0cfa79042.webp?width=350&quality=80"
+    },
+    {
+      "name": "Electro",
+      "id": "Electro",
+      "cost": 3,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ongoing",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Electro-6a3c5623f11581f5b9fd25d6c68df90cfbdb22216aab14a5fd62e6d956e9c111.webp?width=350&quality=80"
+    },
+    {
+      "name": "Elektra",
+      "id": "Elektra",
+      "cost": 1,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "destroy",
+        "on-reveal",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Elektra-596601e2b1efa4da4be257cba04684c9efd84268eb3b6651b07d7fa45e2a97a7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Elixir",
+      "id": "Elixir",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Elixir-7062a4cd245b94f386b3eac3ed2a93ee8ef3cea441861a96dc92fab07a7f7f66.webp?width=350&quality=80"
+    },
+    {
+      "name": "Elsa Bloodstone",
+      "id": "ElsaBloodstone",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ElsaBloodstone-f4ebd1291077cb5353a7cc561c437311a6df8a44c4edb54686cd8f8e6400c7a8.webp?width=350&quality=80"
+    },
+    {
+      "name": "Emperor Hulkling",
+      "id": "Hulkling",
+      "cost": 6,
+      "power": 12,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hulkling-72f8b6e0cb0d794e2dab07b4b879203c18cb0ab27b00a1f68bdcbeac0a9a02a9.webp?width=350&quality=80"
+    },
+    {
+      "name": "En Sabah Nur",
+      "id": "EnSabahNur",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/EnSabahNur-20c3af6bb4bac145a55da0c432778597e96830ebcaafae55a173669a70ed5e40.webp?width=350&quality=80"
+    },
+    {
+      "name": "Enchantress",
+      "id": "Enchantress",
+      "cost": 5,
+      "power": 8,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "on-reveal",
+        "ongoing",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Enchantress-932ca4493fca12a3bd3de763fcb24bc14073b64c8830770781ac38eeab1db8ed.webp?width=350&quality=80"
+    },
+    {
+      "name": "Esme Cuckoo",
+      "id": "EsmeCuckoo",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/EsmeCuckoo-06e886a3b96dcbfb169a248a30412adcc61aeb73916ad7f3a6e2e3006c43490b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Eson",
+      "id": "Eson",
+      "cost": 6,
+      "power": 10,
+      "series": "S4/5",
+      "tags": [
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Eson-0a20f08c1774599a3e08803c3a6df231b5cc66d73c45769cca990571f3fee5cc.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ezekiel Sims",
+      "id": "EzekielSims",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/EzekielSims-94a498d2f6b2e72347076bc1574d2e278ec791dbf2b07c2fb7318481dca57427.webp?width=350&quality=80"
+    },
+    {
+      "name": "Falcon",
+      "id": "Falcon",
+      "cost": 2,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Falcon-91ce692cfd042dc2eabd055734e6234a63fb924bafea330986e5dba96c34ce23.webp?width=350&quality=80"
+    },
+    {
+      "name": "Fan Fei",
+      "id": "FanFei",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "move",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/FanFei-fc61de33e1f9ebe01eb397fd6f438a6736308368e0be9d863ce4a6628184b980.webp?width=350&quality=80"
+    },
+    {
+      "name": "Fantasticar",
+      "id": "Fantasticar",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Fantasticar-a981bd77bc8b9e1cb304c7202d7f93a7741ecf0e4a28e2ae48f8f70ddb54a9dd.webp?width=350&quality=80"
+    },
+    {
+      "name": "Fantomex",
+      "id": "Fantomex",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "control",
+        "destroy",
+        "discard",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Fantomex-47d69f0dbb432ec6c62e120b7bbe0442c4943184a5c34660f22b4be3f53f942e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Fenris Wolf",
+      "id": "FenrisWolf",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "destroy",
+        "discard"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/FenrisWolf-288f31e5fad5674a8746491c7620b0487bbd4fad66543d11c70adb191a54d3fd.webp?width=350&quality=80"
+    },
+    {
+      "name": "Fin Fang Foom",
+      "id": "FinFangFoom",
+      "cost": 7,
+      "power": 12,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/FinFangFoom-9489cce424beef5125e0fb0836c3242696a995e84ef7e48580b39c1ec8024f2b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Firehair",
+      "id": "Firehair",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Firehair-e14e772598244cfc4672df7b8ee5da013f94399159f753de8dc7530c2314765f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Firelord",
+      "id": "Firelord",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "discard",
+        "on-reveal",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Firelord-c5e4faefd1e09f3c860bbc54a7484c69224f63049aae8ab005ef1d25c3a46bac.webp?width=350&quality=80"
+    },
+    {
+      "name": "Forge",
+      "id": "Forge",
+      "cost": 2,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Forge-52dac845c1ab03ff1c16be8c8bdbd724974d8c830d1e9d54b58b1be0f6d8e361.webp?width=350&quality=80"
+    },
+    {
+      "name": "Frigga",
+      "id": "Frigga",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Frigga-77e42d10ea3e65b2f393e634e4173623f2aecdfe92608ac2e5193b2a3ddfe12f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Galacta",
+      "id": "Galacta",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Galacta-ab377a163a9607d19ba8494d123b8194ad3854bda152671241c24df7b6b9c27a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Galactus",
+      "id": "Galactus",
+      "cost": 6,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Galactus-a3c50a83e937866a32a4fadcce95687f0063489fc02aaafefda0b6448cfb7590.webp?width=350&quality=80"
+    },
+    {
+      "name": "Galactus First Steps",
+      "id": "GalactusFirstSteps",
+      "cost": 6,
+      "power": 12,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/GalactusFirstSteps-b2dd6d42b9b4dbae5b443832ef690770a042ac742d80b76ccf46d0b60cfdc64a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Gambit",
+      "id": "Gambit",
+      "cost": 3,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "discard",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Gambit-9ab901d49ef341d55b66a684962e001d685664e3fb54d436519f03ff6d1fe917.webp?width=350&quality=80"
+    },
+    {
+      "name": "Gambit Horseman of Death",
+      "id": "GambitHorseman",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/GambitHorseman-8a2b3be69c848b30d11536ba95b09b1eaa6bcb84ce0fc28f564f3fd704e77fef.webp?width=350&quality=80"
+    },
+    {
+      "name": "Gamora",
+      "id": "Gamora",
+      "cost": 5,
+      "power": 8,
+      "series": "Starter",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Gamora-f482685866ebcf6dfb6ff10c3239a6cec96736e8ccdefc9be04e7a71f4eb8fe7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ghost",
+      "id": "Ghost",
+      "cost": 3,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Ghost-8eead2ab63be7bbf6d705c8b9c4201bef3e3fed1dea612287e7441ac4eeb88b3.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ghost Rider",
+      "id": "GhostRider",
+      "cost": 4,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/GhostRider-a12d3b16ac9db0fd14af67e7fde5a828781f50cf52853f28c904e913cb285930.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ghost-Spider",
+      "id": "GhostSpider",
+      "cost": 1,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/GhostSpider-f84661a735d817978d9174512691236eb8ac84ed438cbf4d91a367bbc540da2c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Giganto",
+      "id": "Giganto",
+      "cost": 6,
+      "power": 16,
+      "series": "S3",
+      "tags": [
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Giganto-1ca83c48414785463cd86ef5b551b26fd6a6c1d89897df5a90af4fa89ac94f38.webp?width=350&quality=80"
+    },
+    {
+      "name": "Gilgamesh",
+      "id": "Gilgamesh",
+      "cost": 5,
+      "power": 9,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Gilgamesh-1982d392f3fa24e9e77512e075107202bdd565c5e623631c92d3ba853dad205f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Gladiator",
+      "id": "Gladiator",
+      "cost": 3,
+      "power": 8,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "on-reveal",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Gladiator-b1a6a7584b78c08728e0822221f038273221fb982c8b6e62253dabe8a40bd8ac.webp?width=350&quality=80"
+    },
+    {
+      "name": "Goliath",
+      "id": "Goliath",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Goliath-800c00cefa27266128bd8a558e12b458f9c0685b9db3242684cc14d2cf5424a0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Goose",
+      "id": "Goose",
+      "cost": 2,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Goose-0f0ae2eeef68b24ff83210f77db96ce71f6e6af393c0a389dbe9af65bd0307c1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Gorgon",
+      "id": "Gorgon",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Gorgon-f9b170302939c328520b46d10e946065cd1d053775b88ecb0626bad96fda71d7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Gorr the God Butcher",
+      "id": "Gorr",
+      "cost": 6,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Gorr-c6aea14d57e9d01b768983d84213c1f7deccd3e2007e14099204d3763e94cc6d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Grand Master",
+      "id": "GrandMaster",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/GrandMaster-c1abd4958997cf629e90aace6e5ad343166f83ce46f3c6ca351c49870253c134.webp?width=350&quality=80"
+    },
+    {
+      "name": "Green Goblin",
+      "id": "GreenGoblin",
+      "cost": 3,
+      "power": -4,
+      "series": "S3",
+      "tags": [
+        "junk",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/GreenGoblin-0f170f55120785636f1ee3983fa19521739f770070ab13402dd81bdc16e72f98.webp?width=350&quality=80"
+    },
+    {
+      "name": "Groot",
+      "id": "Groot",
+      "cost": 3,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Groot-d899d823e3a88711488e0871c6aefa09ca3d67631bf5583850b07915c67144c4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Gwenpool",
+      "id": "Gwenpool",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Gwenpool-6043a71d7aea5c608d14b05b1fd897365593c4d2dad96953024f83896a535b9e.webp?width=350&quality=80"
+    },
+    {
+      "name": "H.E.R.B.I.E.",
+      "id": "Herbie",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "combo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Herbie-bb66cabc1581ccdf57a549aaa557642bc4411d4ce491eadb2dc2674c9ec28699.webp?width=350&quality=80"
+    },
+    {
+      "name": "Havok",
+      "id": "Havok",
+      "cost": 2,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Havok-7a4d64354f163c680b7dde3551cf45e64bee64ae8c292f1eeac72d0c330a46f9.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hawkeye",
+      "id": "Hawkeye",
+      "cost": 1,
+      "power": 1,
+      "series": "Starter",
+      "tags": [
+        "on-reveal",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hawkeye-f6e3594441598d6dc10ae975f35b928834ba9f6ef413d35abc0497aefc7a2977.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hawkeye Kate Bishop",
+      "id": "KateBishop",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/KateBishop-c62d10432d40ea0a024a056152adaba9d3ea9453ad0dea5e14b15f79b864b198.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hazmat",
+      "id": "Hazmat",
+      "cost": 3,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "control",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hazmat-6e49d4dd56deafdf164725d8fdd386c706aa12022f95a95be6261394c3a9fc18.webp?width=350&quality=80"
+    },
+    {
+      "name": "Headpool",
+      "id": "Headpool",
+      "cost": 1,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Headpool-7a2ae898bc536f22241fb22fd533cd55ad838c0ec3c9a805b71dbf49852efe9f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Heimdall",
+      "id": "Heimdall",
+      "cost": 6,
+      "power": 10,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Heimdall-7577dd14b72c53241820aa434aca06b9f50d65d018b012e3e153a5bb717778ba.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hela",
+      "id": "Hela",
+      "cost": 6,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hela-f8a62192f94eadcc344486f30b3d4df6b9b1158674400766d2c6a0c300c7ed89.webp?width=350&quality=80"
+    },
+    {
+      "name": "Helicarrier",
+      "id": "Helicarrier",
+      "cost": 6,
+      "power": 12,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Helicarrier-48f8f31671f1b3d225ff25574970a22aa6c40f5bd1548792cbeb514074b6b3a4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hellcow",
+      "id": "Hellcow",
+      "cost": 4,
+      "power": 7,
+      "series": "S3",
+      "tags": [
+        "activate",
+        "discard",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hellcow-e87108241b9c4730f49991c93ac2b6d4b48289ba368cccf5d58ecd9c68f2858c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hellion",
+      "id": "Hellion",
+      "cost": 5,
+      "power": 8,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hellion-e2527967d7fa1acc21f54a3c8640249f86d7201b805662205a535525d8b807f4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hercules",
+      "id": "Hercules",
+      "cost": 3,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hercules-b48999cd8c351a279ac2a7b57a218d693fb43b831f820b021a6f778abadd9f19.webp?width=350&quality=80"
+    },
+    {
+      "name": "High Evolutionary",
+      "id": "HighEvolutionary",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/HighEvolutionary-1943e951da3c6624e2ff20367661887496f8107ad193729da33df09899f6ee9f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hit-Monkey",
+      "id": "HitMonkey",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/HitMonkey-d4a460ca96fa648268ccee13597addb80fdbc1999e57b8563b88fcb7160e2d5f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hobgoblin",
+      "id": "Hobgoblin",
+      "cost": 5,
+      "power": -8,
+      "series": "S1/2",
+      "tags": [
+        "junk",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hobgoblin-d1afd2f89a4c8f0fb5fc6786848bb9f6581f7a60bb8820c87fafec65da180b6c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hope Summers",
+      "id": "HopeSummers",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/HopeSummers-cd3dc1ef13865cf21f5b6f18f87a7a5682275b396c3d615547e0e2901e35cbb2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Howard the Duck",
+      "id": "HowardTheDuck",
+      "cost": 1,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/HowardTheDuck-924a9cf65a5faa3707ac66f1d4552c508cc3a5b8fdd6f277dc1274d3afc2050b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hulk",
+      "id": "Hulk",
+      "cost": 6,
+      "power": 14,
+      "series": "Starter",
+      "tags": [
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hulk-6bcd29497eb1bdf99cf586ca2c2107f20c572f4dde6d73b512c7345b61eac630.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hulkbuster",
+      "id": "Hulkbuster",
+      "cost": 2,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "combo",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hulkbuster-020bef1c8948e76eacad767870bbf2674c7bc1aabadcadef3b5e5ca6b0ff0a38.webp?width=350&quality=80"
+    },
+    {
+      "name": "Human Torch",
+      "id": "HumanTorch",
+      "cost": 3,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "combo",
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/HumanTorch-5cb414ab203e49e7fafa506a784c5588969f535e100fd540174ff149d54abf1d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Human Torch First Steps",
+      "id": "HumanTorchFirstSteps",
+      "cost": 3,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/HumanTorchFirstSteps-b4acd78b1660679c95f601034ca4be2a1e8b0a03f2468cfdf7b5aaf9430fa8fe.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hydra Bob",
+      "id": "HydraBob",
+      "cost": 1,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/HydraBob-1fde4ab5e69dec5a15ac7714ca198bbbb7862ae232d0bc6abd88f131c4a9ea15.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hydra Stomper",
+      "id": "HydraStomper",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/HydraStomper-c22d1fbf6011cf267cb0c54d8b49293ad4d26397e16b061c1f32de682b888517.webp?width=350&quality=80"
+    },
+    {
+      "name": "Hydro-Man",
+      "id": "HydroMan",
+      "cost": 5,
+      "power": 9,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/HydroMan-3ba324206190760633ece8b7ae2c48d2a72fd747ecec2a72146f3ddfb32ebcba.webp?width=350&quality=80"
+    },
+    {
+      "name": "Iceman",
+      "id": "Iceman",
+      "cost": 1,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Iceman-0657f1ec73f3eac2a0b83dea3c7988ffa55cf20597dc12bae57ee26dc7476743.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ikari",
+      "id": "Ikari",
+      "cost": 4,
+      "power": 12,
+      "series": "Unknown",
+      "tags": [
+        "control",
+        "payoff",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Ikari-0de0d33094ff29bb91c58ffcfb9f81a2eb5730d097fd1860d06b7f9844e48c44.webp?width=350&quality=80"
+    },
+    {
+      "name": "Infinity Ultron",
+      "id": "InfinityUltron",
+      "cost": 5,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/InfinityUltron-805e03e8f29a1819eeb93b17fdcc84862f7cd93ccd60029b01109ac9dfcf774f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Invisible Woman",
+      "id": "InvisibleWoman",
+      "cost": 2,
+      "power": 4,
+      "series": "S3",
+      "tags": [
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/InvisibleWoman-0c7192d6519ca718d5d97c3b3eac9fb876358dc77b18bcc80e5e981fc3bd1894.webp?width=350&quality=80"
+    },
+    {
+      "name": "Invisible Woman First Steps",
+      "id": "InvisibleWomanFirstSteps",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "combo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/InvisibleWomanFirstSteps-764a09556cfd69a8db14b7ef73d3511efc99a0ba63e41deb59b3185094ad7ce0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Iron Fist",
+      "id": "IronFist",
+      "cost": 1,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/IronFist-d676c662a8f34dfdaf10b08195d265ef56b4455462d8d968b93513c4db2a4e72.webp?width=350&quality=80"
+    },
+    {
+      "name": "Iron Lad",
+      "id": "IronLad",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/IronLad-06a46c7b6a8e190f104269ad6e8d7430de48925cfd911fc8afd3fe512af2fee6.webp?width=350&quality=80"
+    },
+    {
+      "name": "Iron Man",
+      "id": "IronMan",
+      "cost": 5,
+      "power": 0,
+      "series": "Starter",
+      "tags": [
+        "combo",
+        "ongoing",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/IronMan-ff455ad737fcc333a64944f87b2d1345f517d2e7e39915b516aba4ad2616a05a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Iron Patriot",
+      "id": "IronPatriot",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "token",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/IronPatriot-8c4d276e7ac4547b63575cf042cf81f3c3ff62ff128917aabdc3f365a3e68430.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ironheart",
+      "id": "Ironheart",
+      "cost": 3,
+      "power": 0,
+      "series": "Starter",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Ironheart-d416c0507e6ab0ef80fe30a064264edb0fd39e0067fdd32845508b5a36ae519a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Isca the Unbeaten",
+      "id": "Isca",
+      "cost": 4,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "combo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Isca-f1122cd5ee022c32f4f86b0b4bfc09e8fa6d941af61bb16a11fc808a9c433428.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jack Flag",
+      "id": "JackFlag",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JackFlag-567529e4cab447900089488ef848059414c5188b7d1225188399bd50f1d5d263.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jane Foster Mighty Thor",
+      "id": "JaneFoster",
+      "cost": 5,
+      "power": 9,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JaneFoster-4b232c232f2d653a380e77658218bc1a06ccc20a5c4c1d4e8222e2fc083509c1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jean Grey",
+      "id": "JeanGrey",
+      "cost": 3,
+      "power": 4,
+      "series": "S3",
+      "tags": [
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JeanGrey-74b764a7c808375cecfd45310cb68a42537f22243a9be3925ef992c396f638b3.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jeff the Baby Land Shark",
+      "id": "JeffTheBabyLandShark",
+      "cost": 2,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JeffTheBabyLandShark-075aa591becc3a3373872adc6c2b6de17182dd765935d4a19b37d9bc48fac52d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jennifer Kale",
+      "id": "JenniferKale",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JenniferKale-2849ccb7afc9bad51981c64ee73e266a5f5afb0c61cb6342f9c4aef880e4e960.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jessica Jones",
+      "id": "JessicaJones",
+      "cost": 4,
+      "power": 5,
+      "series": "Unknown",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JessicaJones-f349d112280e57d1de59da6f0f83bc6ec59673bb48e2418df5f19d6772be3199.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jim Hammond Human Torch",
+      "id": "JimHammond",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "ramp",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JimHammond-57218e5ad157ca5a81922271d837fde3846c927b40bc29fef539bcb77b76dc40.webp?width=350&quality=80"
+    },
+    {
+      "name": "Joaquin Torres Falcon II",
+      "id": "JoaquinTorres",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "ongoing",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JoaquinTorres-feec12d800e330392dafd3263a15b29b7326d60e23780650ed3fd1c792cdf35d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jocasta",
+      "id": "Jocasta",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Jocasta-35c08f29d24459eba6a7ccb3910649d5be14c143c211008f2d04795b38d92abc.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jubilee",
+      "id": "Jubilee",
+      "cost": 4,
+      "power": 1,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Jubilee-bdd2ac9cf796b4b1027a37b3b0d531e693ec9f3e6c34ad1d50e55a990e3c57a4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Juggernaut",
+      "id": "Juggernaut",
+      "cost": 4,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Juggernaut-454260e61260d56ab53df2d5d891693d23d1e1377d5c344d28312da9f7dc6f98.webp?width=350&quality=80"
+    },
+    {
+      "name": "Juggernaut Horseman of War",
+      "id": "JuggernautHorseman",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JuggernautHorseman-f6da66473e2fbd7b9c335b9ff0121e844eae5fc5aac8a870bb4ae8eb88bc5254.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ka-Zar",
+      "id": "KaZar",
+      "cost": 4,
+      "power": 6,
+      "series": "Unknown",
+      "tags": [
+        "ongoing",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/KaZar-89ef907ef248c20387b67863160c39f4fe7b09393281e815a1c2fae2b986f18a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Kahhori",
+      "id": "Kahhori",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Kahhori-a2fcf51e5bae246c9efd8de7f43d3c190648a50ec34bf34325981bd22aeb7e33.webp?width=350&quality=80"
+    },
+    {
+      "name": "Kang",
+      "id": "Kang",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Kang-3403e167d291ec6434abe574fcd16a2015e850790a49346dd0c39b3589794aad.webp?width=350&quality=80"
+    },
+    {
+      "name": "Karen Page",
+      "id": "KarenPage",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/KarenPage-d2076182c216bd30c0cbbf66d47bcd188d296cab29982a9cae0e8c9cffd21cb2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Khonshu",
+      "id": "Khonshu",
+      "cost": 6,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Khonshu-f05368a8311ad8ad57d7630ade1e73db9bb588f7fbd29592c9e4b94e0dee2a58.webp?width=350&quality=80"
+    },
+    {
+      "name": "Kid Omega",
+      "id": "KidOmega",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "destroy",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/KidOmega-36ae4b61d785fc829ec8221f7ffb8b512f43e146030561acd80bd91e13db5d5e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Killmonger",
+      "id": "Killmonger",
+      "cost": 3,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "destroy",
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Killmonger-d5497f5d9a48465f98fb94ad67d787ed9d002598f1bb93e6041cfcd50b3e6f91.webp?width=350&quality=80"
+    },
+    {
+      "name": "King Eitri",
+      "id": "KingEitri",
+      "cost": 1,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/KingEitri-312526b3cb9f5cb01f013b5971e8f1420cd56d59cbceed18cc0fe106d9abd22d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Kingpin",
+      "id": "Kingpin",
+      "cost": 1,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "control",
+        "move",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Kingpin-a8f5307a1ff643d8f21525244c8a76197741ad7e6de02c71dd743b2459fdadbb.webp?width=350&quality=80"
+    },
+    {
+      "name": "Kitty Pryde",
+      "id": "KittyPryde",
+      "cost": 1,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/KittyPryde-7310e24d50de3f3dbb344749a2278b6897472cfab07b75ff1f563e3c37a06b63.webp?width=350&quality=80"
+    },
+    {
+      "name": "Klaw",
+      "id": "Klaw",
+      "cost": 5,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Klaw-c088da6bfd85c18e41772aa19938b5edce12132af81dc58fd524246c5e357203.webp?width=350&quality=80"
+    },
+    {
+      "name": "Knull",
+      "id": "Knull",
+      "cost": 6,
+      "power": 0,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "ongoing",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Knull-4371f05e45b8d25996a8fa653395fe2ea778ed5104a1d055e7c157c1a71654d3.webp?width=350&quality=80"
+    },
+    {
+      "name": "Korg",
+      "id": "Korg",
+      "cost": 1,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "junk",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Korg-2c07b35fd60cd9a559f7d763083d66a4745a8814653e9a0822f415f828621bcc.webp?width=350&quality=80"
+    },
+    {
+      "name": "Kraglin",
+      "id": "Kraglin",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Kraglin-b629c3c165c43acd3488b5ddc39cad4aefd7eb6198e7bfacb497a997bf0be521.webp?width=350&quality=80"
+    },
+    {
+      "name": "Kraven",
+      "id": "Kraven",
+      "cost": 2,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Kraven-16756b16289cb2d19aadfd63c9ea2fddfc6827dd130021ce9002c22363efed02.webp?width=350&quality=80"
+    },
+    {
+      "name": "Lady Bullseye",
+      "id": "LadyBullseye",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "control",
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/LadyBullseye-ebcb27143a04931c2c58f94804673e8a94de91c9f5f680cd11cab56fbd8f3831.webp?width=350&quality=80"
+    },
+    {
+      "name": "Lady Deathstrike",
+      "id": "LadyDeathstrike",
+      "cost": 5,
+      "power": 7,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/LadyDeathstrike-5327218b911cd3258c19e6df7cab95879c27142c2439d5ca36ea6cd9d0ad6ddd.webp?width=350&quality=80"
+    },
+    {
+      "name": "Lady Sif",
+      "id": "LadySif",
+      "cost": 3,
+      "power": 6,
+      "series": "S1/2",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/LadySif-40a6d3c9234258418a76fa44098ccfb398a2199a3c2cb4f8160af5d14b98695a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Lasher",
+      "id": "Lasher",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "control"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Lasher-61e151e371220b9a1a7c1742a3d725a71f35f60e8ae3a8d1462c46860761cd52.webp?width=350&quality=80"
+    },
+    {
+      "name": "Laufey",
+      "id": "Laufey",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Laufey-5d58e06206abc5622d4052d062db8eac5362f80aa311f5dcb96d23be508e0d40.webp?width=350&quality=80"
+    },
+    {
+      "name": "Leader",
+      "id": "Leader",
+      "cost": 6,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Leader-d2bbf691faf19ed196ef72601958baf0afc02dc52cb2e8d7a7a4bb55f57b4f3f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Leech",
+      "id": "Leech",
+      "cost": 4,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "control",
+        "move",
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Leech-ee20a107bbf138080563fde198a1afcf9bfa47ef4d238f69017c88c8d5744290.webp?width=350&quality=80"
+    },
+    {
+      "name": "Legion",
+      "id": "Legion",
+      "cost": 5,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Legion-d9e5a62d1f151e248aaf851880381982976187d7524baba8f47185185460323c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Lin Lie Iron Fist",
+      "id": "LinLie",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/LinLie-70041a8e55dc49c6c7b8afd9058aaa06586494a0030baf4c39dbfc07faca32f2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Lizard",
+      "id": "Lizard",
+      "cost": 2,
+      "power": 6,
+      "series": "S1/2",
+      "tags": [
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Lizard-8323799e8a03fee92c6e1268b0c7dcbd9f8df549f234e2ad0cdcc7f62496c96e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Lockheed",
+      "id": "Lockheed",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Lockheed-52657603be721621df79f1b6fbfe04425a4a399ca3e77672fc26382299aabeb7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Lockjaw",
+      "id": "Lockjaw",
+      "cost": 2,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "activate",
+        "combo",
+        "control"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Lockjaw-def4056a0d79e110fd2aa3a695813cb1384df82ffa279217f01f856e17f6e371.webp?width=350&quality=80"
+    },
+    {
+      "name": "Loki",
+      "id": "Loki",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Loki-3baca87bd3df9a24782ddd77d1ea6bb87eb2703c8fe86fa5d65c79c0888d46d6.webp?width=350&quality=80"
+    },
+    {
+      "name": "Luke Cage",
+      "id": "LukeCage",
+      "cost": 3,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "control",
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/LukeCage-ad1fc58a5602fc286a0bf2bef1a4d183221bcb89ccec36fc6c3f234af1d9af37.webp?width=350&quality=80"
+    },
+    {
+      "name": "Luna Snow",
+      "id": "LunaSnow",
+      "cost": 3,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/LunaSnow-ca3b77d5887d609f134a3249b704df03ac3b91927db8b1729aa4793b42b70970.webp?width=350&quality=80"
+    },
+    {
+      "name": "M.O.D.O.K.",
+      "id": "Modok",
+      "cost": 5,
+      "power": 7,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Modok-dd4d6af8896863c0510c38c90fc50a8b147576880fc336b33ca5715f23283851.webp?width=350&quality=80"
+    },
+    {
+      "name": "M'Baku",
+      "id": "MBaku",
+      "cost": 1,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MBaku-eb1c7342fe1239e1f24d9e2bc30b6b1b9712c2332a0b0ed98fe20f711011543e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mad Thinker",
+      "id": "MadThinker",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "scaler",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MadThinker-339cc4db9edd5972477534617bf4accc3c59f397437f6168687e698581920c0a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Madame Web",
+      "id": "MadameWeb",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MadameWeb-c39de7ed7bcd89dab854b2cab5b466ef33d71188b0350f832fd05c6cbceba753.webp?width=350&quality=80"
+    },
+    {
+      "name": "Magik",
+      "id": "Magik",
+      "cost": 3,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Magik-d3da7ff41dfec5acd0b3dfce346e7752459851b8a60eafd2344b4c0849ff6802.webp?width=350&quality=80"
+    },
+    {
+      "name": "Magneto",
+      "id": "Magneto",
+      "cost": 6,
+      "power": 12,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Magneto-2d6f2cdcda475a916bb3e85595515840c9331f34dc947c2bfc48d0aa9c77e299.webp?width=350&quality=80"
+    },
+    {
+      "name": "Magus",
+      "id": "Magus",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Magus-f352f0a115c1f6dda4bda60a35c4883008a6888d4e059d2eba837529f34c99a2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Major Victory",
+      "id": "MajorVictory",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MajorVictory-8097d741008f445029a00fdd24d80f103eb900581a3b0d737cbcbad44ccc0d52.webp?width=350&quality=80"
+    },
+    {
+      "name": "Makkari",
+      "id": "Makkari",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Makkari-276ad9dfc39d8e831d1e78c78659954c5459b6518e2f649a59935525d0e54159.webp?width=350&quality=80"
+    },
+    {
+      "name": "Malekith",
+      "id": "Malekith",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Malekith-e2bd65d32f94a7fb5d82f6ced36560595b97c74b67fabbfbc5deb8b563232678.webp?width=350&quality=80"
+    },
+    {
+      "name": "Man-Spider",
+      "id": "ManSpider",
+      "cost": 5,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ManSpider-20bd3d228e8a015b2dfb1bf085b9e65322cc131e3a4d72b7fb410cf6c2b20b71.webp?width=350&quality=80"
+    },
+    {
+      "name": "Man-Thing",
+      "id": "ManThing",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ManThing-a842085d629cce317c42ad3c2cd8c411048ced50a4cefd6ba96dd1c1f9f45b28.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mantis",
+      "id": "Mantis",
+      "cost": 1,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Mantis-a286a2b0d10021d38ec732ac542bb4ba68d3e9ae9f0790d7bb3c634961701ed1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Maria Hill",
+      "id": "MariaHill",
+      "cost": 1,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MariaHill-c03b5a2d4a87d227b692da77289f190ce0a1596c369b7958c144a4a9f85fdf88.webp?width=350&quality=80"
+    },
+    {
+      "name": "Marrow",
+      "id": "Marrow",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "discard"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Marrow-f3e520dd21c3caba0f7e9c917351e34ad3eeca17c2c3c1cffddcfda6369e7059.webp?width=350&quality=80"
+    },
+    {
+      "name": "Martyr",
+      "id": "Martyr",
+      "cost": 1,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "move",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Martyr-431481620e412124f41449e7f3584b21a73519b867899d4cbcfc63436c8c012e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Marvel Boy",
+      "id": "MarvelBoy",
+      "cost": 3,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MarvelBoy-75c173b4412c012b342cf5f75fa667b34872d9f3786e55be77dd919da4d134c5.webp?width=350&quality=80"
+    },
+    {
+      "name": "Master Mold",
+      "id": "MasterMold",
+      "cost": 2,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MasterMold-55e60481c7594941ffc0bd10842f2de9e72b2fa80759b5f9a173152ba9bed0df.webp?width=350&quality=80"
+    },
+    {
+      "name": "Maverick",
+      "id": "Maverick",
+      "cost": 3,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "activate"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Maverick-cddddb75c04547576d3a3466dffb7e9e1c27ac75be1f47143c4450ce9d5018aa.webp?width=350&quality=80"
+    },
+    {
+      "name": "Maximus",
+      "id": "Maximus",
+      "cost": 2,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Maximus-01bc0b3c8b22835a235e17f999b2e98c8cbb0721053c1fa98267848f7d30184d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Medusa",
+      "id": "Medusa",
+      "cost": 2,
+      "power": 2,
+      "series": "Starter",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Medusa-2d8dd5f1e49f16df5ad6ed57ee8d822636f62137bac92e7472cad33152a59a68.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mercury",
+      "id": "Mercury",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "move",
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Mercury-04b41b004dabd997c1039b8638caab9b065357f6d5857931a60fd64fa9df0cb7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Merlin",
+      "id": "Merlin",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Merlin-8ab1a5104655bb78b1edb0f0360d0812e2f33aebc3b17a8fb84be5bfb4392af1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Miek",
+      "id": "Miek",
+      "cost": 1,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "move",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Miek-3915b030e80ddaeb57f9fe127ee52b1638a83fcee9c59e69d070060699613903.webp?width=350&quality=80"
+    },
+    {
+      "name": "Miles Morales Spider-Man",
+      "id": "MilesMorales",
+      "cost": 4,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "move",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MilesMorales-c2789b29c3ededaac7f01c32b5ebe9f8802094d8c3f0e7e94348ce7953208fb4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mirage",
+      "id": "Mirage",
+      "cost": 2,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "scaler",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Mirage-0490a16b665f116c136b06b10c0c17ba6985295ce964abe18d67e55ac3f59d5c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Misery",
+      "id": "Misery",
+      "cost": 4,
+      "power": 8,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "destroy",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Misery-efc6e4f438c23614560cec1d296bb0a00130bd5a04affd2c581ce9f8f5d8b482.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mister Fantastic",
+      "id": "MrFantastic",
+      "cost": 3,
+      "power": 1,
+      "series": "Unknown",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MrFantastic-4e3d9238f18019999769a571d21f971d4c3be2b53bca89047fc2fa13ee476da4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mister Fantastic First Steps",
+      "id": "MrFantasticFirstSteps",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MrFantasticFirstSteps-81af5ee684f07614bedc6ca670a13eb2917e0ef1e2f708db855274894ec9e985.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mister Negative",
+      "id": "MrNegative",
+      "cost": 4,
+      "power": -1,
+      "series": "S3",
+      "tags": [
+        "combo",
+        "junk",
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MrNegative-74f2dbc65c88bd4f877fa5e6343e5aac179196393a4fd5d122544ac22af07eb0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mister Sinister",
+      "id": "MrSinister",
+      "cost": 2,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MrSinister-e79f00145041d012579b00dbe620f9e90f40e80d9dab80943bddbcf53d60656b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Misty Knight",
+      "id": "MistyKnight",
+      "cost": 1,
+      "power": 3,
+      "series": "Starter",
+      "tags": [
+        "no-ability",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MistyKnight-2c5eb3ac27f7ab1adce395dcc278c846a1cc0b5ccd202f930698542ebc38d43d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mobius M. Mobius",
+      "id": "MobiusMMobius",
+      "cost": 3,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "control",
+        "ongoing",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MobiusMMobius-f9c45d8810c8202642cebb6db8f316582a5e56a9513477422260dbf80b9e5a4e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mockingbird",
+      "id": "Mockingbird",
+      "cost": 6,
+      "power": 9,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Mockingbird-1fcf4e764358b633d696f2d796e0b9eb06f420e4c36fec4a50fb7ad2cdffff84.webp?width=350&quality=80"
+    },
+    {
+      "name": "Moira X",
+      "id": "MoiraX",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MoiraX-c63b61778a1755b091d255283d9401661b94824c6e7683ba16f21438bc962c76.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mojo",
+      "id": "Mojo",
+      "cost": 2,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Mojo-a3c32a08a982c93eda54385a66278a2f86d4431f6ebd2155d9f3b2be835d824f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mole Man",
+      "id": "MoleMan",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "junk",
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MoleMan-9c8d84053844f5c2b8a5c8b7ee046b13e21e2af5f92cc0ed276b190998193394.webp?width=350&quality=80"
+    },
+    {
+      "name": "Moon Girl",
+      "id": "MoonGirl",
+      "cost": 4,
+      "power": 5,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MoonGirl-7fcd58036d35b7953e759376756426fbc9cfb5b8045e8cd864b4eaf2326aa6c2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Moon Knight",
+      "id": "MoonKnight",
+      "cost": 3,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MoonKnight-dede0f091b6731f8bb3a8ffa404c2d180cc23128c45cc381427cbbc3b4d0622a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Moondragon",
+      "id": "Moondragon",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Moondragon-a09aa378ec1312fea77a82c840162b9d09f7fe5e09a55bdb3ef5bed6e4a9e125.webp?width=350&quality=80"
+    },
+    {
+      "name": "Moonstone",
+      "id": "Moonstone",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Moonstone-e2fbcef59d55b20de7581adeb0e4522b93be2be621d90b3006a9bc2a8d5d9cf4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Morbius",
+      "id": "Morbius",
+      "cost": 2,
+      "power": 0,
+      "series": "S1/2",
+      "tags": [
+        "discard",
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Morbius-57f69abb0a557071091fc1b6083d9b3eb6f7ffff1ae7b199b4a7e085cb7bd51b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Morgan le Fay",
+      "id": "MorganLeFay",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "discard",
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MorganLeFay-6115867e65b7738dedd04501eef64dd786847554ec9bf90f0d8d5772691b41c0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Morph",
+      "id": "Morph",
+      "cost": 3,
+      "power": 0,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Morph-de8f85a487b1d90fd0d27e4a0bdcf124f04d3f49bbe55cd541cf962c3762f329.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mother Askani",
+      "id": "MotherAskani",
+      "cost": 4,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "scaler",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MotherAskani-5ebab66ccb253283757a6e2d49b7aac3b076280f1312d9d011ca289f5864b1ca.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ms. Marvel",
+      "id": "MsMarvel",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "ongoing",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MsMarvel-b1de5969732c879c8af8a87bc06984b8803cb78a2ccd97e7ad0752d5320938ae.webp?width=350&quality=80"
+    },
+    {
+      "name": "Multiple Man",
+      "id": "MultipleMan",
+      "cost": 2,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MultipleMan-cf08fe8faf35c82f4a604f57f692f28bc40627c3fb6a5ca2781fb52e55bcf59e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Muse",
+      "id": "Muse",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Muse-dcedbd06b34ea9570eb1c619e70cac6618b4b2f575860673e33205c88430b84b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mysterio",
+      "id": "Mysterio",
+      "cost": 2,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "activate",
+        "combo",
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Mysterio-07d5bb69a4b6e0496f12000c7cd58aa8f0f3001783d756ce0d95d8f6596e72e6.webp?width=350&quality=80"
+    },
+    {
+      "name": "Mystique",
+      "id": "Mystique",
+      "cost": 3,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ongoing",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Mystique-bf2d396bedea00fca1bd15c3acee7fd87f344aa89ba59d54e80046c510061795.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nakia",
+      "id": "Nakia",
+      "cost": 3,
+      "power": 4,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Nakia-d99d6c8f8fd0266418ea751b2f152fb703f10be812c6911f8fd9ece7eec2aed7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Namor",
+      "id": "Namor",
+      "cost": 4,
+      "power": 6,
+      "series": "S1/2",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Namor-81abe1b5257a5dbcc5470d1f9f52ac2d186a9dba114a04d2c4da7c8f589461d6.webp?width=350&quality=80"
+    },
+    {
+      "name": "Namora",
+      "id": "Namora",
+      "cost": 5,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Namora-bef6597b477a357be9c706b9d64e39dec07a2514f53325932ec6b5cd2f59e8ef.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nebula",
+      "id": "Nebula",
+      "cost": 1,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Nebula-c2a073c7b4aed62c00ba3e97908ab29b9b2a5e20577b2add27b6e84293a76c6b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Negasonic Teenage Warhead",
+      "id": "NegasonicTeenageWarhead",
+      "cost": 4,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "destroy"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/NegasonicTeenageWarhead-d1949b891a5fff748076a7b963ac911761baa8c62265eed27ebae631d9a54fa5.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nicholas Scratch",
+      "id": "NicholasScratch",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/NicholasScratch-1b9e247aa34617fa5eada0b510ab42426d72675c1fb0a45fe91a40c03b4e1988.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nick Fury",
+      "id": "NickFury",
+      "cost": 4,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/NickFury-7bb0c69f03e9435ad63c0b80df3e28b57192bce5bbeedbc6dae05fc3990bba79.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nico Minoru",
+      "id": "NicoMinoru",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/NicoMinoru-107ef708b9282332e8928debb1c7c47c4cccd565075b709e2e7f81ec74109440.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nightcrawler",
+      "id": "Nightcrawler",
+      "cost": 1,
+      "power": 3,
+      "series": "Unknown",
+      "tags": [
+        "move",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Nightcrawler-c8df6a33f669aaf3079088f97f2a2fcb472a6a1ca5be9ab1d70483761374768c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nightmare",
+      "id": "Nightmare",
+      "cost": 3,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Nightmare-638f4da094207f3fecca0ec5198854e6d43749b9bbf97bcaa28facb171ecb86d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nimrod",
+      "id": "Nimrod",
+      "cost": 5,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "payoff",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Nimrod-f8884dcf0c26ac375716b41a3069dd49c3e20a62334a8e888f09e0ee37295622.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nocturne",
+      "id": "Nocturne",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Nocturne-e7360ebec4e20677a542326d2d81ae0930ad14f60e8fc9ed8f391a974595e4d0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nova",
+      "id": "Nova",
+      "cost": 1,
+      "power": 1,
+      "series": "S1/2",
+      "tags": [
+        "destroy",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Nova-8929d0e5af2fe01ac3603ed4952026166c687cd1b8bf34d5b68e0046f0001762.webp?width=350&quality=80"
+    },
+    {
+      "name": "Nova Frankie Raye",
+      "id": "FrankieRaye",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/FrankieRaye-d2a26ba3b02b6424268a095d836515f66d3ed5bca87f6f7acf4d81881113a1a6.webp?width=350&quality=80"
+    },
+    {
+      "name": "Odin",
+      "id": "Odin",
+      "cost": 6,
+      "power": 10,
+      "series": "Unknown",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Odin-201128050d1d3e23f723d75be01ae66b8eb87c4d79a64392262fb01b71857e71.webp?width=350&quality=80"
+    },
+    {
+      "name": "Okoye",
+      "id": "Okoye",
+      "cost": 2,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Okoye-5ef33c9369e88edaa9d0edbd1f76be556a879bdf60728ab7dac65efe626c2948.webp?width=350&quality=80"
+    },
+    {
+      "name": "Omega Red",
+      "id": "OmegaRed",
+      "cost": 4,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/OmegaRed-e1b56cab3f94da510026ecd7e76f004d9c00131f2ae8f17200ccf8871b7021ab.webp?width=350&quality=80"
+    },
+    {
+      "name": "Omega Sentinel",
+      "id": "KarimaShapandar",
+      "cost": 4,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "control"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/KarimaShapandar-880317370e772ea5ef4cfdf766d2fd398e562a40fa6f59839b1caaee2f4b899c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Onslaught",
+      "id": "Onslaught",
+      "cost": 6,
+      "power": 8,
+      "series": "S1/2",
+      "tags": [
+        "ongoing",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Onslaught-fbc0a739edec80ccd009e2d53a5080b58f963aaf42dcd398d966b665bf930f57.webp?width=350&quality=80"
+    },
+    {
+      "name": "Orka",
+      "id": "Orka",
+      "cost": 6,
+      "power": 11,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Orka-73f504480abca09b459c88ece0e29f28bb434ec638464abf622e5508994d8656.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ozymandias",
+      "id": "Ozymandias",
+      "cost": 5,
+      "power": 9,
+      "series": "S4/5",
+      "tags": [
+        "junk",
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Ozymandias-b8ed4d403ae78597a9a4f52029981f2852551d1ab5331d3ac9ff7a547365113a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Patriot",
+      "id": "Patriot",
+      "cost": 3,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Patriot-c732a6b617384c22a2e11a3d360622af97d2bbebe67f3398a2874fc73486c12c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Peni Parker",
+      "id": "PeniParker",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "ramp",
+        "scaler",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/PeniParker-a9d232369a99f44b0cb53ab85b1d9591b06ee163b264102876c2d1733049f3fd.webp?width=350&quality=80"
+    },
+    {
+      "name": "Phastos",
+      "id": "Phastos",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Phastos-951318c391e59d28b68ac12b218f209d9e937ed464bde6677df3e3c363bdc71d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Phoenix Force",
+      "id": "ThePhoenixForce",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "destroy",
+        "move",
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ThePhoenixForce-48eb9ecdec2a62d35ae0c95003a921da76adc2dbba75a9285642f03e11fdfcc9.webp?width=350&quality=80"
+    },
+    {
+      "name": "Pixie",
+      "id": "Pixie",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Pixie-26d0eaf126d8ef6269bc2d4871dfd9bccb0d70b96c27ebd918ab5e322a95af76.webp?width=350&quality=80"
+    },
+    {
+      "name": "Polaris",
+      "id": "Polaris",
+      "cost": 3,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Polaris-7411e2fcc6be6aeee74ecc80eba6f457ece2e61f458f89bc5ef6940d7a4ced17.webp?width=350&quality=80"
+    },
+    {
+      "name": "Polaris Horseman of Pestilence",
+      "id": "PolarisHorseman",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "control"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/PolarisHorseman-f3f93b879c69ffda454f599975ab7dec5a451a6f49f05dfe411191ed9f291b6a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Prodigy",
+      "id": "Prodigy",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Prodigy-8fc95afa2bf96929da98e4fa2f92ae1ecf765f14776255029062470b3590cb16.webp?width=350&quality=80"
+    },
+    {
+      "name": "Professor X",
+      "id": "ProfessorX",
+      "cost": 5,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "ongoing",
+        "payoff",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ProfessorX-df8484aa607821b87910d49f5205cd7d064bb1704fdbed2ad0d6a9ab3c1fe502.webp?width=350&quality=80"
+    },
+    {
+      "name": "Prowler",
+      "id": "Prowler",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Prowler-a1b5384828488ed8ac77a1127ca7e26111eb1ea7ab22935cefde4ee477796e75.webp?width=350&quality=80"
+    },
+    {
+      "name": "Proxima Midnight",
+      "id": "ProximaMidnight",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ProximaMidnight-a2f822aa614304e46fdec6c84c46c16621b795ef93a8f283313cabf19aa6de94.webp?width=350&quality=80"
+    },
+    {
+      "name": "Psylocke",
+      "id": "Psylocke",
+      "cost": 2,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "control",
+        "on-reveal",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Psylocke-4b8dcf57cc8b6f9c12a4504e3e1dc64cb169adf25a02be73899f7a84c0edfea7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Punisher",
+      "id": "Punisher",
+      "cost": 3,
+      "power": 3,
+      "series": "Starter",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Punisher-881557c897c20675b263c3546f80c603e3189fc48dd71fe768514574e4bcb5f2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Punisher War Machine",
+      "id": "PunisherWarMachine",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "ramp",
+        "scaler",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/PunisherWarMachine-b2e71b50197be2c454573660f7b9154698accf2506b5a15e0e478d10b070dd01.webp?width=350&quality=80"
+    },
+    {
+      "name": "Quake",
+      "id": "Quake",
+      "cost": 2,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "combo",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Quake-c8eb6cec137e8ba1f92453a78d00e6e59a7c9a89ebd3796c70ea79fabc582d8c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Quicksilver",
+      "id": "Quicksilver",
+      "cost": 1,
+      "power": 2,
+      "series": "Starter",
+      "tags": [
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Quicksilver-5cba6291c2e3af393940f6f0e8d60e464c3bf6f4daf9e298ee37b307df46da3f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Quinjet",
+      "id": "Quinjet",
+      "cost": 1,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Quinjet-edd041f21c95ebdb5ab1c5e6725e04e3bb85010960b6e4b8c7fc6106a30139f0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Rama-Tut",
+      "id": "RamaTut",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/RamaTut-03cbc1f818589e2f41d01b473068c685fe46e89e26fb84626e2768b84c125b17.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ravonna Renslayer",
+      "id": "RavonnaRenslayer",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/RavonnaRenslayer-a6b16777f742ed43ab27bcfab7264884e8320818d7abcc463086be50a4d56451.webp?width=350&quality=80"
+    },
+    {
+      "name": "Red Guardian",
+      "id": "RedGuardian",
+      "cost": 3,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "move",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/RedGuardian-8a13bdabe6ba1cadd52057dbe076575191cc0f67fb92d906babcd8675db99753.webp?width=350&quality=80"
+    },
+    {
+      "name": "Red Hulk",
+      "id": "RedHulk",
+      "cost": 6,
+      "power": 10,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/RedHulk-838540e775b50424fe7277ddeb6d66b37045ba2ecf04747afcb9564b43cc1bae.webp?width=350&quality=80"
+    },
+    {
+      "name": "Red Shift",
+      "id": "RedShift",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/RedShift-409a0f965dac85c9ddaf7ded61fd149d31b4019d6eabb3ad76342ca798c3b32d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Red Skull",
+      "id": "RedSkull",
+      "cost": 5,
+      "power": 14,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/RedSkull-72963de15ec8350e988635f286e4a9073d1325ec77c320c0f4aba72fd525392c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Redwing",
+      "id": "Redwing",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Redwing-2357a071ebca407fa900ac0d64fc336b08e974e8e2d1a0b1af4b03b600eff306.webp?width=350&quality=80"
+    },
+    {
+      "name": "Rescue",
+      "id": "Rescue",
+      "cost": 4,
+      "power": 4,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Rescue-cdebffb310c0a3d88abc81d1b63c951c6b789ade3082d8265f229f8a21aacc73.webp?width=350&quality=80"
+    },
+    {
+      "name": "Rhino",
+      "id": "Rhino",
+      "cost": 2,
+      "power": 5,
+      "series": "S1/2",
+      "tags": [
+        "junk",
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Rhino-0f81008884ce7abce712dfb458f2687b72193db81e79e7bd896f961f8d5b0615.webp?width=350&quality=80"
+    },
+    {
+      "name": "Rocket and Groot",
+      "id": "RocketAndGroot",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "junk",
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/RocketAndGroot-1191cd0d852ee67354a2fd6d0d706e0660fc08128b81a38bc9439014a461948d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Rocket Raccoon",
+      "id": "RocketRaccoon",
+      "cost": 1,
+      "power": 1,
+      "series": "S1/2",
+      "tags": [
+        "junk",
+        "on-reveal",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/RocketRaccoon-130068df33738be6f77c63d3a45c44d1fd38da793633a77f08f6d928fa904c1a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Rockslide",
+      "id": "Rockslide",
+      "cost": 4,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "junk",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Rockslide-ea6a11040b56fe15379d4a1bb610589202950aff9adfc5b68de52233389adc56.webp?width=350&quality=80"
+    },
+    {
+      "name": "Rogue",
+      "id": "Rogue",
+      "cost": 3,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "control",
+        "on-reveal",
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Rogue-6780e08ed115bf13518999dd5ce34fe30c14a291ff6ddc2716fd644d7a82a7f0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ronan the Accuser",
+      "id": "Ronan",
+      "cost": 5,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Ronan-78aa9cb90e65027d07902eefc6ef749ba26b2e05649094b46521b693a5a1efa6.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sabretooth",
+      "id": "Sabretooth",
+      "cost": 3,
+      "power": 5,
+      "series": "S1/2",
+      "tags": [
+        "destroy",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sabretooth-395647141226644f66534047b9c72114b795d9b8b977ac832c72ae56b503b52c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sage",
+      "id": "Sage",
+      "cost": 3,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sage-bedcf32b1ba65383d1d50a4de53fa6854273d54fe440a657da9adaa478f84119.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sam Wilson Captain America",
+      "id": "SamWilson",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "on-reveal",
+        "ongoing",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SamWilson-ffeeec6237e76f262a1f817fbf7d8af6cad6e7a7154c7d838d495c7cff673af4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sandman",
+      "id": "Sandman",
+      "cost": 5,
+      "power": 8,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sandman-00af2690df8d6faf7c666c3e86c55a7549cee6e25f807fcab4b81f6c41902863.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sasquatch",
+      "id": "Sasquatch",
+      "cost": 6,
+      "power": 11,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sasquatch-4c19efad2c51f025a811bb5ff92d5d718f6e80fd41ecb21f659a807848da3a43.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sauron",
+      "id": "Sauron",
+      "cost": 1,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal",
+        "ongoing",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sauron-11e08ea04d666765705759b0a8f0a166d54fba6e1d6e14d4d9041fb853aafb6c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Scarlet Spider",
+      "id": "ScarletSpider",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ScarletSpider-abc9a5d2965279c73c1b5ce5b3351c6c9e947a7476bbdccc96141046ee2d93ff.webp?width=350&quality=80"
+    },
+    {
+      "name": "Scarlet Witch",
+      "id": "ScarletWitch",
+      "cost": 2,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ScarletWitch-0e5a091b49918669552b1d4f354be74918e0b97436e98178f14f3100d0c7499f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Scorn",
+      "id": "Scorn",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Scorn-34484071ca364a1e54644a3745c84d31db7d081dedadd87f60392cc1820a1a74.webp?width=350&quality=80"
+    },
+    {
+      "name": "Scorpion",
+      "id": "Scorpion",
+      "cost": 2,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "control",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Scorpion-d2b1e67aae1c1f56bad3d7dc2ff59c5181bd5471e8d0f3e33b26f1e0c88dc30a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Scream",
+      "id": "Scream",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Scream-9fe5956e6bbe30cf7f6220449aacb78fc696ebb6a7cf18e96f3630f72fe69435.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sebastian Shaw",
+      "id": "SebastianShaw",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SebastianShaw-91cb4edaf797e1d2c20bea19678cf2edc1104825c153491dae4dda6bc3ae50ec.webp?width=350&quality=80"
+    },
+    {
+      "name": "Selene",
+      "id": "Selene",
+      "cost": 1,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "control",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Selene-0d7bdcea204d2263c831a0f4b9546b7e10c50d0f304cddb3a5a4fd7bba02923e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Selene Horseman of Famine",
+      "id": "SeleneHorseman",
+      "cost": 4,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "control"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SeleneHorseman-13c69df20153e1fab0013d8cf7a1a86e088aae6110592e56534a4ff4704b1c32.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sentinel",
+      "id": "Sentinel",
+      "cost": 2,
+      "power": 3,
+      "series": "Starter",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sentinel-1f9c27815f5700bbbe9345b0114ac33bb14b06fe66b9271f792923dd3de7f2ac.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sentry",
+      "id": "Sentry",
+      "cost": 4,
+      "power": 9,
+      "series": "S3",
+      "tags": [
+        "control",
+        "on-reveal",
+        "payoff",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sentry-c94044e987311728ab8509936691c4f062953827147689ba6312c0c55f2e739b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sera",
+      "id": "Sera",
+      "cost": 5,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sera-e4a0624655dc261f5fb4a28c87e5d3a31769119617aef0d12a529d90cd66722f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sersi",
+      "id": "Sersi",
+      "cost": 5,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sersi-53c1bf8ddd533bd6ce3a896bffe3941f233a71659e9b3369993c8ec05a0cdc28.webp?width=350&quality=80"
+    },
+    {
+      "name": "Shadow King",
+      "id": "ShadowKing",
+      "cost": 3,
+      "power": 4,
+      "series": "S3",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ShadowKing-53c45dbeb47d449a91d8e33787ccbb1d495c68addc3528cfd4787d15474ebff2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Shadowlands Daredevil",
+      "id": "ShadowlandsDaredevil",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ShadowlandsDaredevil-41794a06afbe45ee0664cc7b5746c71c452c2be2c3b76e9f111460dc612ff5cf.webp?width=350&quality=80"
+    },
+    {
+      "name": "Shang-Chi",
+      "id": "ShangChi",
+      "cost": 4,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "destroy",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ShangChi-b8f6c8bbf5f7b815d0c6337d7da83b8e97766dd0b6eeeb1abb59f2fe710e05f8.webp?width=350&quality=80"
+    },
+    {
+      "name": "Shang-Chi, Master of the Rings",
+      "id": "ShangChiMasterOfTheRings",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ShangChiMasterOfTheRings-ff800b2a34bfd75ab79cccbde47eebf32fc36737d0d568d7f2357660a4e5db86.webp?width=350&quality=80"
+    },
+    {
+      "name": "Shanna",
+      "id": "Shanna",
+      "cost": 3,
+      "power": 4,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Shanna-a93afe06caa5fa8da646622d3a8dea7d2924351515604074a2affb91eeb5208f.webp?width=350&quality=80"
+    },
+    {
+      "name": "She-Hulk",
+      "id": "SheHulk",
+      "cost": 6,
+      "power": 10,
+      "series": "S3",
+      "tags": [
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SheHulk-2efa94b80892a7734eca70bec742aae9a999e14916d2ad4aa6cad3eda5070127.webp?width=350&quality=80"
+    },
+    {
+      "name": "Shocker",
+      "id": "Shocker",
+      "cost": 2,
+      "power": 4,
+      "series": "Starter",
+      "tags": [],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Shocker-5ecde1461bb16ccc1bcc2a64049faf3217b58948340d3d1ba58045122a5f219b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Shou-Lao the Undying",
+      "id": "ShouLao",
+      "cost": 5,
+      "power": 8,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ShouLao-a72ab304982c05b33e6070f4711d7fb997dcd6cabda8d5644eef2b5e5611b949.webp?width=350&quality=80"
+    },
+    {
+      "name": "Shuri",
+      "id": "Shuri",
+      "cost": 4,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "combo",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Shuri-5aba2894e54debf8aa4b85bb5203785845ff9f55ad0a97be39f8e7efc3232542.webp?width=350&quality=80"
+    },
+    {
+      "name": "Silk",
+      "id": "Silk",
+      "cost": 2,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Silk-9fa78c4a1ee313122bee1e1d31ab275eb4d6521f894e83ce3a97c97f3254a936.webp?width=350&quality=80"
+    },
+    {
+      "name": "Silver Sable",
+      "id": "SilverSable",
+      "cost": 1,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SilverSable-c64ac1c1a49d7476a228708d470b73bad0a95a74534ad226899895000c598f04.webp?width=350&quality=80"
+    },
+    {
+      "name": "Silver Samurai",
+      "id": "SilverSamurai",
+      "cost": 4,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SilverSamurai-ae8e188d56869adee052c398b59b06625789c14f1bd8a0c104059991c0209d87.webp?width=350&quality=80"
+    },
+    {
+      "name": "Silver Surfer",
+      "id": "SilverSurfer",
+      "cost": 3,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SilverSurfer-e5fec6cbb3e39046c261a892a45b31f5e2001ace0bf0070aed30d66d3006ab7e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Silver Surfer First Steps",
+      "id": "SilverSurferFirstSteps",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SilverSurferFirstSteps-bddae6f8f615a10e4733bb34ab3efa093a18296c8a5c086fcef8fe13818c4aae.webp?width=350&quality=80"
+    },
+    {
+      "name": "Skaar",
+      "id": "Skaar",
+      "cost": 7,
+      "power": 12,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Skaar-72eeba29c352ffa64083d2b5cd68a807bf8b41ea5678530445426274b8d21702.webp?width=350&quality=80"
+    },
+    {
+      "name": "Snowguard",
+      "id": "Snowguard",
+      "cost": 1,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Snowguard-1ce679cb4f1ecbcbc9b00bd5628e03020d26727d88e62bfb83242fa6b9cbc959.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sparky",
+      "id": "Sparky",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "move",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sparky-0ce314d5c867516523e3e4f7c9447a927758cdab25f2e78536b728b82d1fe22c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Spectrum",
+      "id": "Spectrum",
+      "cost": 6,
+      "power": 7,
+      "series": "Unknown",
+      "tags": [
+        "on-reveal",
+        "ongoing",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Spectrum-7ffffeb4211a33ceb943a88476ca6b8db99023235fb0a34b325f3ec6d75e897a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Speed",
+      "id": "Speed",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Speed-f9e38b6764ebf07e732e64e6002c97ee10ca2a5794c427a4e988fc70c9c9936d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Spider-Ham",
+      "id": "SpiderHam",
+      "cost": 1,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "activate",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SpiderHam-16c58126fc5758c15538424046d0f71048cdaf6c239851c7f5f031aadcedcf57.webp?width=350&quality=80"
+    },
+    {
+      "name": "Spider-Man",
+      "id": "SpiderMan",
+      "cost": 2,
+      "power": 4,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SpiderMan-f388d4345ce9359030e73259cc862cb3483e0c45e63577ce050755b358932c19.webp?width=350&quality=80"
+    },
+    {
+      "name": "Spider-Man 2099",
+      "id": "SpiderMan2099",
+      "cost": 5,
+      "power": 9,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "move",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SpiderMan2099-c3beae684262d4e2271c98faa5a547c5c60663059d9286f94540510b6e2fd9bc.webp?width=350&quality=80"
+    },
+    {
+      "name": "Spider-Man Noir",
+      "id": "SpiderManNoir",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SpiderManNoir-e01cf38009141109dec85d609ee733008d966592386bc17a60921288ae496d65.webp?width=350&quality=80"
+    },
+    {
+      "name": "Spider-Punk",
+      "id": "SpiderPunk",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SpiderPunk-7b05ee843607b5afeaf06183ab64362f4a25233f849ab079d4a4d85d978a09d0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Spider-Woman",
+      "id": "SpiderWoman",
+      "cost": 5,
+      "power": 8,
+      "series": "S1/2",
+      "tags": [
+        "control",
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SpiderWoman-ed7b385eaf7274cac81cfe52ed2273606f4c5a81cc89db8fab10fc95c2bbeec4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Squirrel Girl",
+      "id": "SquirrelGirl",
+      "cost": 1,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "tempo",
+        "token",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SquirrelGirl-bfaffc45bc0c753ca23aa734fd705a978f0b8a828074599bb4fad02870688153.webp?width=350&quality=80"
+    },
+    {
+      "name": "Star-Lord",
+      "id": "Starlord",
+      "cost": 2,
+      "power": 2,
+      "series": "Starter",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Starlord-c64a2f13bf1af8cff4e010dd54f814e61ba1953a5149fbf68b0097f9ac1b262a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Star-Lord, Master of the Sun",
+      "id": "StarlordMasterOfTheSun",
+      "cost": 5,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/StarlordMasterOfTheSun-a6bc36ef621798d07037a25b7d090331a83cc670d55ebc521c35451c39766732.webp?width=350&quality=80"
+    },
+    {
+      "name": "Starbrand",
+      "id": "Starbrand",
+      "cost": 3,
+      "power": 10,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Starbrand-e0c814be316eec27d49357e9550caca88affbd244746edb1e9831437a9c7e13c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Stardust",
+      "id": "Stardust",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Stardust-b9d7bdffef7684532ce220347a1240b825c775a09c608dc1717b1003539f07c7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Starhawk",
+      "id": "Starhawk",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Starhawk-ecba6d6d060bbeaa7ec23818493e3e82e950789628f6fc20929a6aa1963c9bf1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Stature",
+      "id": "Stature",
+      "cost": 5,
+      "power": 7,
+      "series": "S3",
+      "tags": [
+        "discard",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Stature-f4db4ea8b1419a40a1a6ba797ca387c5128475c64703638e9cea41dfa2535332.webp?width=350&quality=80"
+    },
+    {
+      "name": "Stegron",
+      "id": "Stegron",
+      "cost": 4,
+      "power": 7,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Stegron-a48a557b6479254d69842c31d06be1dd39178ce43c45a942b03d161c81397db6.webp?width=350&quality=80"
+    },
+    {
+      "name": "Stick",
+      "id": "Stick",
+      "cost": 4,
+      "power": 3,
+      "series": "Unknown",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Stick-76a72862ef585df7158a10ef36ef832623cc6ae473d40ce1a31ec988e795af2f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Storm",
+      "id": "Storm",
+      "cost": 3,
+      "power": 1,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Storm-c23a5d32590cfdeb1e87127bd512386e47309fa5c7d42db8389d71814bd8eca2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Storm Horseman of Famine",
+      "id": "StormHorseman",
+      "cost": 3,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/StormHorseman-f5c129de219375c9441eba33652384c7ddb74c60695eaf07c7a6a2cdfd412ac7.webp?width=350&quality=80"
+    },
+    {
+      "name": "Strange Supreme",
+      "id": "StrangeSupreme",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/StrangeSupreme-699b80efefe0dd6fafb81ba187dce2a1c78736c254736931b3728ff5faa4f52d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Strong Guy",
+      "id": "StrongGuy",
+      "cost": 3,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/StrongGuy-5fde30293894b61ffbda3bf923c91cc9bfc989e20c5ce06630637da38483385f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Stryfe",
+      "id": "Stryfe",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Stryfe-bb02c163abe9e8e7f8941b8f0085536f0129f98a63748115a4cc77e80260830e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sunspot",
+      "id": "Sunspot",
+      "cost": 1,
+      "power": 0,
+      "series": "S1/2",
+      "tags": [
+        "ramp",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sunspot-90ddff850318041750fe4d3699dd794301e406b19c8967926ef9e873e10d94d3.webp?width=350&quality=80"
+    },
+    {
+      "name": "Super-Adaptoid",
+      "id": "SuperAdaptoid",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "control",
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SuperAdaptoid-baaea57daaa04481f6f1ce944e4df4efd28d68cd6011ca59a31355c88cbe6491.webp?width=350&quality=80"
+    },
+    {
+      "name": "Super-Skrull",
+      "id": "SuperSkrull",
+      "cost": 4,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SuperSkrull-ff8b9f9d8830013ade0483753c957634926cffb83f59cfe422666788e334522d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Supergiant",
+      "id": "Supergiant",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Supergiant-d2d892f750714c0733abb10dcb69ce35fa6bbbcf88e5f90625da065730c51263.webp?width=350&quality=80"
+    },
+    {
+      "name": "Superior Spider-Man",
+      "id": "SuperiorSpiderMan",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SuperiorSpiderMan-ec42948df34870d0d5afa25a9ba5cb0e4f0a2369d194f85df6c684468f6c7a56.webp?width=350&quality=80"
+    },
+    {
+      "name": "Surge",
+      "id": "Surge",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Surge-c838d9d3c5fe109e37e82920ac85c31b8e29f9acf91299aff0f0ceca0f8a8dde.webp?width=350&quality=80"
+    },
+    {
+      "name": "Surtur",
+      "id": "Surtur",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Surtur-50bd98099819e2b223d0b0b69f5f1c287191f6a4b38d5d32f322506993461acb.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sword Master",
+      "id": "SwordMaster",
+      "cost": 3,
+      "power": 7,
+      "series": "S1/2",
+      "tags": [
+        "discard",
+        "on-reveal",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SwordMaster-727835cb18ee8cab1b39df5250b7ea463002022657232427b615cbb4fb0bfa06.webp?width=350&quality=80"
+    },
+    {
+      "name": "Sword of Fu Xi",
+      "id": "SwordOfFuXi",
+      "cost": 2,
+      "power": 2,
+      "series": "Unknown",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SwordOfFuXi-0929839b8e239eea16f15ac41c4ebad9a836f96846d26913164326d3db87f123.webp?width=350&quality=80"
+    },
+    {
+      "name": "Symbiote Spider-Man",
+      "id": "SymbioteSpiderMan",
+      "cost": 4,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "combo",
+        "ramp",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SymbioteSpiderMan-5f90b5bb525007714c23b58a27bd33613111480bdadb8c59d1fb75ebf3ea9c1f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Taskmaster",
+      "id": "Taskmaster",
+      "cost": 6,
+      "power": 0,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Taskmaster-ffa1033367eb36c0627f3f4e59551809dda557c8ebfed583bfbe7e1e1f3213eb.webp?width=350&quality=80"
+    },
+    {
+      "name": "Thaddeus Ross",
+      "id": "ThaddeusRoss",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ThaddeusRoss-14476656724bc9216181b886145719049153c0c8b31575657b17c77c3354c780.webp?width=350&quality=80"
+    },
+    {
+      "name": "Thanos",
+      "id": "Thanos",
+      "cost": 6,
+      "power": 12,
+      "series": "S4/5",
+      "tags": [
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Thanos-51daf70912f13b8dc51390c5c57e27aa26767eeceb3ed3838cd044af2fa36135.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Ancient One",
+      "id": "TheAncientOne",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/TheAncientOne-2079127c7a9bd1d9eb76fb6c5be8a4f50eac8bb32d88c1d34363697a14b9d86f.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Collector",
+      "id": "TheCollector",
+      "cost": 2,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/TheCollector-a1f63764654e8064553cdfe019edfc8c715242a749ae890e5b9eeab25db5f037.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Fallen One",
+      "id": "FallenOne",
+      "cost": 5,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/FallenOne-5b2d950d86f3b0facb4f379b33f2ad7613fdd06ccf6c73292d665b98b5103c38.webp?width=350&quality=80"
+    },
+    {
+      "name": "The First Ghost Rider",
+      "id": "GhostTheFirstRider",
+      "cost": 2,
+      "power": 7,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "move",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/GhostTheFirstRider-3da1a1f398c43f22a05f587e9fedcc4702e1dc4bdf1ed17d9d41e17a6c21bf08.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Hood",
+      "id": "Hood",
+      "cost": 1,
+      "power": -3,
+      "series": "S3",
+      "tags": [
+        "junk",
+        "on-reveal",
+        "tempo",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hood-1e7db731a67521189066b5064ec23b08c8393bfc856502611ac87f66b75c392b.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Infinaut",
+      "id": "Infinaut",
+      "cost": 6,
+      "power": 20,
+      "series": "S1/2",
+      "tags": [
+        "control",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Infinaut-1f56f2a602800966d4ab0eb717499f505b2f6927e430c88cf2b4ca9223f8256d.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Living Tribunal",
+      "id": "LivingTribunal",
+      "cost": 6,
+      "power": 9,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/LivingTribunal-feb7a57e13c8779f7251efe39d9125995edaa0955da67d0f2ee16e9d456acb7e.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Ten Rings",
+      "id": "TenRings",
+      "cost": 2,
+      "power": 2,
+      "series": "Unknown",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/TenRings-3728b33c4c84bdeae68a3f57898a595529e1446402b748c6ed844dec5d6f995d.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Thing",
+      "id": "TheThing",
+      "cost": 4,
+      "power": 7,
+      "series": "Starter",
+      "tags": [
+        "no-ability",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/TheThing-395007e9d4ec537d5da6a69b21bcebcc64a89dc6def5348ab98823885340bf70.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Thing First Steps",
+      "id": "TheThingFirstSteps",
+      "cost": 5,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/TheThingFirstSteps-8d26d15abeec9f473bf8745b1a7ad0f7b6ab0db239305acc27e6c68deb44ed5f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Thena",
+      "id": "Thena",
+      "cost": 2,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Thena-82819533c663b4044470519297a2aec078049107dcba8a75d095163e02f51108.webp?width=350&quality=80"
+    },
+    {
+      "name": "Thor",
+      "id": "Thor",
+      "cost": 3,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Thor-8a8ff42f0a4edd103f1ff42d3ac50fbf347e848d9b13aa5c839d393af4af201a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Titania",
+      "id": "Titania",
+      "cost": 1,
+      "power": 5,
+      "series": "S3",
+      "tags": [
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Titania-258ffbe58efeeee1d4de9e851a435c2a9825c95b2f768e545d06f0cc93740123.webp?width=350&quality=80"
+    },
+    {
+      "name": "Topaz",
+      "id": "Topaz",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Topaz-9ede407e09c5d97dbaed05ba6dd302ff567dffdb18a4bfaf43ea3947098d89f1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Toxie Doxie",
+      "id": "ToxieDoxie",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "control",
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ToxieDoxie-9198116713d25c6e3621f31992f326ad9db71283ffa3b039e97581efd16c7ad4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Toxin",
+      "id": "Toxin",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Toxin-2f904ca2d4f26744b415b2d22b80eda88a16cccc9b4d9c364e05e5eca9f639a0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Typhoid Mary",
+      "id": "TyphoidMary",
+      "cost": 4,
+      "power": 10,
+      "series": "S3",
+      "tags": [
+        "ongoing",
+        "payoff",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/TyphoidMary-193c940961d739e28e364579f2cbb0cfd61f1b75beb874479536370e0468e0d7.webp?width=350&quality=80"
+    },
+    {
+      "name": "U.S. Agent",
+      "id": "USAgent",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/USAgent-b48679d1072ac668dcea16335616dcbcaa60f316edc1a954da75f89761ecfb45.webp?width=350&quality=80"
+    },
+    {
+      "name": "Uatu the Watcher",
+      "id": "Uatu",
+      "cost": 1,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Uatu-d2e6847575097d651567e50d3253d14d1ffe6d58210a6d6097b24148edfe7af0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Ultron",
+      "id": "Ultron",
+      "cost": 6,
+      "power": 8,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "token"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Ultron-22496fa6e3a4c413c4a02f41f7b5544a42dc2d4ce2666aebab49a15de6524b59.webp?width=350&quality=80"
+    },
+    {
+      "name": "Uncle Ben",
+      "id": "UncleBen",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/UncleBen-b5469c602158076ac306ce00aab865346f2fd045e2fa2967f1eda73e3f2a2e5e.webp?width=350&quality=80"
+    },
+    {
+      "name": "Valentina",
+      "id": "Valentina",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Valentina-d607cad75c814672a2c0627281158787d0b2d16a8777823fc525bf2d6b79268a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Valkyrie",
+      "id": "Valkyrie",
+      "cost": 5,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Valkyrie-b08c09675e728729dd8e138231221b46fdae663f68eb2f388afb9c8da1e23d8f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Venom",
+      "id": "Venom",
+      "cost": 3,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "destroy",
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Venom-f29cdd80e077ddd235a9dac65d1958beed8593bb86c4d9649c7ba07a6cfb93b0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Victoria Hand",
+      "id": "VictoriaHand",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/VictoriaHand-4dd4b054732bf93f543d9c243127d29c20a5e38df3d88d91852d8706c283b916.webp?width=350&quality=80"
+    },
+    {
+      "name": "Viper",
+      "id": "Viper",
+      "cost": 3,
+      "power": 4,
+      "series": "S3",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Viper-961c66b4b7b77b8b642fde6c1899114e88f5ee400b9085786425a8d7ad35eed1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Vision",
+      "id": "Vision",
+      "cost": 5,
+      "power": 9,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Vision-f8d6ba320842e60e688314990b5e3ab2e0c084070ee6a8589f1051860f484387.webp?width=350&quality=80"
+    },
+    {
+      "name": "Viv Vision",
+      "id": "Viv",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Viv-68b5cd54d6d24819de51585de7fae79a6f27b5958344651055e886cec2b54aea.webp?width=350&quality=80"
+    },
+    {
+      "name": "Vulture",
+      "id": "Vulture",
+      "cost": 1,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "move",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Vulture-a1cf16d8ad3c4a6f0e2a6833c0414785235386069af2a3e1ee4b114b354fafe5.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wade Wilson",
+      "id": "WadeWilson",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WadeWilson-a22f62402c971032dd5cd0c2b819156b629bd5bb25c8c0085bfd891135e2f264.webp?width=350&quality=80"
+    },
+    {
+      "name": "War Machine",
+      "id": "WarMachine",
+      "cost": 5,
+      "power": 9,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WarMachine-2cb7e0d3ac7c6e990dac58a60fbe8d910a6886b180429f3dab4cf3b726c3b0d1.webp?width=350&quality=80"
+    },
+    {
+      "name": "Warlock",
+      "id": "Warlock",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "control",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Warlock-5ca264b0c3ca7fdc89ecc3ba486022f7f956a471a337c63a0bef6acfa564aa76.webp?width=350&quality=80"
+    },
+    {
+      "name": "Warpath",
+      "id": "Warpath",
+      "cost": 4,
+      "power": 5,
+      "series": "S1/2",
+      "tags": [
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Warpath-6a952eebad7a107d9a8fd9bc18f18b65ab29fd089647857e65774fb69c38ddb5.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wasp",
+      "id": "Wasp",
+      "cost": 0,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "no-ability",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Wasp-8b347fcec24a2530464ebf59a205440b7cc2a70b9d7a639b8fad430fbfd52abe.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wave",
+      "id": "Wave",
+      "cost": 3,
+      "power": 6,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Wave-aafb393d3a3c388a6d767e795534a681cf9b82561fa17e30bd2316071360d69d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Weapon H",
+      "id": "WeaponH",
+      "cost": 7,
+      "power": 14,
+      "series": "S4/5",
+      "tags": [
+        "discard",
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WeaponH-1f2203b40673b3b14e4a638a74f4383fbf2551795b3a6f1f2dc2818fcf160aff.webp?width=350&quality=80"
+    },
+    {
+      "name": "Weapon X Wolverine",
+      "id": "WeaponXWolverine",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WeaponXWolverine-d813a426a1f6ed42b92137a425af17464a21f39bb1fa0df2ed69db4329799083.webp?width=350&quality=80"
+    },
+    {
+      "name": "Werewolf By Night",
+      "id": "WerewolfByNight",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WerewolfByNight-27448703eaf35704e542bb2b51286f84774d9a702b80629f4f97807c6fb87a38.webp?width=350&quality=80"
+    },
+    {
+      "name": "White Queen",
+      "id": "WhiteQueen",
+      "cost": 3,
+      "power": 5,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WhiteQueen-6a26c5c77487af14f22e5a76f2b7ae08cb7750bcf4867f86c8bf8b0698752dd6.webp?width=350&quality=80"
+    },
+    {
+      "name": "White Tiger",
+      "id": "WhiteTiger",
+      "cost": 5,
+      "power": 1,
+      "series": "Unknown",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WhiteTiger-8f9845a9abc2729c4db8d978e0bfc0f40fb340cc24b61b015ac39a704509ed23.webp?width=350&quality=80"
+    },
+    {
+      "name": "White Widow",
+      "id": "WhiteWidow",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "junk",
+        "on-reveal",
+        "value"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WhiteWidow-22b6d477829f8ea206f1ab07b05fbeec137228a9289100559e80249489ec084d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wiccan",
+      "id": "Wiccan",
+      "cost": 4,
+      "power": 6,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Wiccan-e8bbff4c7f6705c35f25a4742d2a8cc9d9fe06d037265417c335ad24560c5bcf.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wild Child",
+      "id": "WildChild",
+      "cost": 2,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "discard",
+        "ongoing",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WildChild-e83c05de525bbec5c9e0379d994778ce3cc186aeac2c942faa2fd3c47ac43a2a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wilson Fisk",
+      "id": "WilsonFisk",
+      "cost": 5,
+      "power": 9,
+      "series": "S4/5",
+      "tags": [
+        "payoff",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WilsonFisk-ec95f8cdead83c829de86fc86ee4d286b70bc4ab531fea8e659a4e97185039fd.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wolfsbane",
+      "id": "Wolfsbane",
+      "cost": 3,
+      "power": 2,
+      "series": "Unknown",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Wolfsbane-260e564b3642190f0ddac108c8a0f57d7a6d27a0f2de8dacaa4327c2524dc48c.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wolverine",
+      "id": "Wolverine",
+      "cost": 2,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "destroy",
+        "discard",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Wolverine-a5818711f341fce2d32b720b5e5c1ce3abdeb87115ba2f13338fe938ac635c1d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wolverine Horseman of War",
+      "id": "WolverineHorseman",
+      "cost": 4,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WolverineHorseman-849d1489b65b5673da2130423d68c76255fd81a607ef556e9950ac8f504c80aa.webp?width=350&quality=80"
+    },
+    {
+      "name": "Wong",
+      "id": "Wong",
+      "cost": 4,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "combo",
+        "on-reveal",
+        "ongoing"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Wong-42323a15c135aa08a7fedd2a02a8053fdbff1e5f767a76a272524b766c5f0a68.webp?width=350&quality=80"
+    },
+    {
+      "name": "X-23",
+      "id": "X23",
+      "cost": 1,
+      "power": 1,
+      "series": "S4/5",
+      "tags": [
+        "destroy",
+        "discard",
+        "ramp",
+        "scaler",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/X23-856a14d7a3abb61d437f547409b2b97c35147845ad0fcf7d2e15704b780f2455.webp?width=350&quality=80"
+    },
+    {
+      "name": "Xorn",
+      "id": "Xorn",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "move",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Xorn-d6119c248da8bcae3a5e2f2c6d7245e7d9b8b7a9dc9f78d966f545c08f644023.webp?width=350&quality=80"
+    },
+    {
+      "name": "Yellowjacket",
+      "id": "Yellowjacket",
+      "cost": 0,
+      "power": 2,
+      "series": "S3",
+      "tags": [
+        "control",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Yellowjacket-0f47373840380d39c38791e5b5d23748acfbbbbeec47366feb0a57334422a503.webp?width=350&quality=80"
+    },
+    {
+      "name": "Yondu",
+      "id": "Yondu",
+      "cost": 1,
+      "power": 2,
+      "series": "S1/2",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Yondu-c7bc4d2ddf4ab46e73e6b68c8c247f1b2c1eabc9b3c5db0a71c8ee22c31633b8.webp?width=350&quality=80"
+    },
+    {
+      "name": "Zabu",
+      "id": "Zabu",
+      "cost": 1,
+      "power": 1,
+      "series": "S3",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Zabu-9cef79d637b3ef893198e2de100caacaecd181a3226349b4a3974e65f5faca56.webp?width=350&quality=80"
+    },
+    {
+      "name": "Zero",
+      "id": "Zero",
+      "cost": 1,
+      "power": 3,
+      "series": "S3",
+      "tags": [
+        "move",
+        "on-reveal",
+        "tempo"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Zero-bbfbde96110615cd0b7266b2d4f926259a27d97d7a1a1b8b1a5d576fd3d4d24b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Zombie Captain Marvel",
+      "id": "ZombieCaptainMarvel",
+      "cost": 4,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "destroy",
+        "move",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ZombieCaptainMarvel-a82fa024fee0bd4be0af0ea8b4a8c85092dbb9805d7e3a45b854bf7341105e63.webp?width=350&quality=80"
+    },
+    {
+      "name": "Zombie Galacti",
+      "id": "ZombieGalacti",
+      "cost": 7,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ZombieGalacti-2fe19331a4ab405ac4cf895a54f280a7ba0a0662c9636008991026ba028eff3d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Zombie Giant-Man",
+      "id": "ZombieGiantMan",
+      "cost": 5,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "payoff",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ZombieGiantMan-22413eca82e0a4ebb6464d1560ddc09dcff47b63ec982760a89ee006987c3835.webp?width=350&quality=80"
+    },
+    {
+      "name": "Zombie Mister Fantastic",
+      "id": "ZombieMisterFantastic",
+      "cost": 2,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ZombieMisterFantastic-34041b9bba72516875298de530fef8dfbf0159b5687b24dc268616448aceaf35.webp?width=350&quality=80"
+    },
+    {
+      "name": "Zombie Power Man",
+      "id": "ZombiePowerMan",
+      "cost": 2,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "discard"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ZombiePowerMan-652fc355c0c757ed4045870815446b4b6f3c7e4d7c8bb4fb3e1e090fc08f1fd2.webp?width=350&quality=80"
+    },
+    {
+      "name": "Zombie Scarlet Witch",
+      "id": "ZombieScarletWitch",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ZombieScarletWitch-f1a814a1a5255e439033eaad6af6c17d6aee9ed94c019fce2bd925bf12a18b1f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Zombie Sentry",
+      "id": "ZombieSentry",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/ZombieSentry-3a1f4f6f33f4603f1f01e76d2a00723e8c1ac68c12851a677bea3aef10345653.webp?width=350&quality=80"
+    }
+  ]
+}

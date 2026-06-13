@@ -1240,6 +1240,7 @@
       <div class="top-actions">
         <button class="btn secondary" type="button" id="btnSaveBackup" title="Exportar coleção, regras e imagens deste navegador">Exportar dados</button>
         <button class="btn secondary" type="button" id="btnLoadBackup" title="Importar dados locais de outro navegador ou aparelho">Importar dados</button>
+        <button class="btn secondary" type="button" id="btnUpdateCards" title="Buscar a base global cards.json publicada no site">Atualizar cartas</button>
         <button class="btn secondary" type="button" id="btnRandomSeed">Seed</button>
         <button class="btn secondary" type="button" id="btnResetData">Resetar base</button>
       </div>
@@ -2185,6 +2186,8 @@
 
     const STORAGE_KEY = "snapDeckLab:v2";
     const IMAGE_STORAGE_KEY = "snapDeckLab:images:v1";
+    const CARD_DATABASE_URL = "cards.json";
+    const CARD_DATABASE_MIN_SIZE = 300;
     const DEFAULT_COLLECTION_ID = "main";
     const DEFAULT_COLLECTION_NAME = "Coleção principal";
     const MAX_CUSTOM_CARDS = 80;
@@ -2258,7 +2261,9 @@
       rouletteRotation: 0,
       images: {},
       pendingImageId: "",
-      archetype: "flex"
+      archetype: "flex",
+      baseCards: [],
+      cardSource: "base embutida"
     };
     let audioContext = null;
 
@@ -2297,6 +2302,7 @@
       btnSaveBackup: document.getElementById("btnSaveBackup"),
       btnShuffleParticipants: document.getElementById("btnShuffleParticipants"),
       btnSpinRoulette: document.getElementById("btnSpinRoulette"),
+      btnUpdateCards: document.getElementById("btnUpdateCards"),
       backupInput: document.getElementById("backupInput"),
       cardImageInput: document.getElementById("cardImageInput"),
       cardCountPill: document.getElementById("cardCountPill"),
@@ -2404,7 +2410,7 @@
     function sanitizeImages(images) {
       if (!images || typeof images !== "object" || Array.isArray(images)) return {};
       const output = {};
-      Object.entries(images).slice(0, BASE_CARDS.length + MAX_CUSTOM_CARDS).forEach(([id, value]) => {
+      Object.entries(images).slice(0, currentBaseCards().length + MAX_CUSTOM_CARDS).forEach(([id, value]) => {
         const safeId = safeCardId(id);
         const image = safeImageUrl(value);
         if (safeId && image.startsWith("data:image/")) output[safeId] = image;
@@ -2476,6 +2482,53 @@
         chosenCards: cleanMultilineText(rules.chosenCards, 700),
         blind: rules.blind === true
       };
+    }
+
+    function normalizeCardDatabase(cards) {
+      const map = new Map();
+      if (!Array.isArray(cards)) return [];
+      cards.forEach(rawCard => {
+        const card = normalizeCard({ ...(rawCard || {}), custom: false });
+        if (card.id && card.name) map.set(card.id, { ...card, custom: false });
+      });
+      return [...map.values()];
+    }
+
+    function currentBaseCards() {
+      return state.baseCards && state.baseCards.length ? state.baseCards : BASE_CARDS.map(normalizeCard);
+    }
+
+    async function loadCardDatabase(force = false) {
+      state.baseCards = currentBaseCards();
+      if (typeof fetch !== "function") return false;
+      const suffix = force ? `?t=${Date.now()}` : "";
+      try {
+        const response = await fetch(`${CARD_DATABASE_URL}${suffix}`, { cache: force ? "reload" : "no-cache" });
+        if (!response.ok) throw new Error("cards.json indisponível");
+        const payload = await response.json();
+        const cards = normalizeCardDatabase(Array.isArray(payload) ? payload : payload.cards);
+        if (cards.length < CARD_DATABASE_MIN_SIZE) throw new Error("base pequena demais");
+        state.baseCards = cards;
+        state.cardSource = payload && payload.updatedAt ? `cards.json · ${cleanText(payload.updatedAt, 24)}` : "cards.json";
+        return true;
+      } catch (error) {
+        if (!state.baseCards.length) state.baseCards = BASE_CARDS.map(normalizeCard);
+        state.cardSource = "base embutida";
+        return false;
+      }
+    }
+
+    async function refreshCardDatabase(force = true) {
+      setStatus("Buscando base global de cartas...", "neutral");
+      const loaded = await loadCardDatabase(force);
+      loadState();
+      renderAll();
+      setStatus(
+        loaded
+          ? `Base global atualizada: ${currentBaseCards().length} cartas.`
+          : `Não consegui buscar cards.json; usando base embutida com ${currentBaseCards().length} cartas.`,
+        loaded ? "good" : "bad"
+      );
     }
 
     function makeParticipantId(name = "participante") {
@@ -2578,7 +2631,7 @@
       try {
         const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
         const savedCards = Array.isArray(saved.cards) ? saved.cards.slice(0, MAX_CUSTOM_CARDS) : [];
-        state.cards = mergeCards(BASE_CARDS, savedCards).map(normalizeCard);
+        state.cards = mergeCards(currentBaseCards(), savedCards).map(normalizeCard);
         state.hiddenDeckIds = new Set(Array.isArray(saved.hiddenDeckIds) ? saved.hiddenDeckIds : []);
         state.pinned = new Set(Array.isArray(saved.pinned) ? saved.pinned : []);
         state.banned = new Set(Array.isArray(saved.banned) ? saved.banned : []);
@@ -2616,7 +2669,7 @@
         el.rouletteCustom.value = cleanMultilineText(saved.rouletteCustom, 1600);
         el.newCollectionName.value = getActiveProfile().name;
       } catch (error) {
-        state.cards = BASE_CARDS.map(normalizeCard);
+        state.cards = currentBaseCards().map(normalizeCard);
         state.collectionProfiles = [normalizeProfile({ id: DEFAULT_COLLECTION_ID, name: DEFAULT_COLLECTION_NAME, missing: [] })];
         state.activeCollectionId = DEFAULT_COLLECTION_ID;
         state.missing = new Set();
@@ -3505,6 +3558,7 @@
       const missing = state.cards.filter(card => !isOwned(card.id)).length;
       const owned = state.cards.length - missing;
       el.cardCountPill.textContent = `${state.cards.length} cartas`;
+      el.cardCountPill.title = `Fonte: ${state.cardSource}`;
       el.lockSummary.textContent = `${state.pinned.size} fixas`;
       el.missingSummary.textContent = `${missing} faltando`;
       el.ownedCount.textContent = owned;
@@ -4557,7 +4611,7 @@
     function resetData() {
       localStorage.removeItem(STORAGE_KEY);
       localStorage.removeItem(IMAGE_STORAGE_KEY);
-      state.cards = BASE_CARDS.map(normalizeCard);
+      state.cards = currentBaseCards().map(normalizeCard);
       state.pinned = new Set();
       state.banned = new Set();
       state.missing = new Set();
@@ -4667,6 +4721,7 @@
       });
       el.btnSaveBackup.addEventListener("click", exportBackup);
       el.btnLoadBackup.addEventListener("click", () => el.backupInput.click());
+      el.btnUpdateCards.addEventListener("click", () => refreshCardDatabase(true));
       el.backupInput.addEventListener("change", importBackup);
       el.viewTabs.forEach(tab => {
         tab.addEventListener("click", () => switchView(tab.dataset.view));
@@ -4737,9 +4792,16 @@
       renderRoulette();
     }
 
-    loadState();
-    bindEvents();
-    renderAll();
+    async function startApp() {
+      state.baseCards = BASE_CARDS.map(normalizeCard);
+      const loaded = await loadCardDatabase(false);
+      loadState();
+      bindEvents();
+      renderAll();
+      if (loaded) setStatus(`Base global carregada: ${currentBaseCards().length} cartas.`, "good");
+    }
+
+    startApp();
   </script>
 
 
