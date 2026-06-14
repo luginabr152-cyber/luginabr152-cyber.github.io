@@ -1257,7 +1257,7 @@
         <section class="panel">
           <div class="panel-header">
             <h2>Deck</h2>
-            <span class="pill" id="cardCountPill">453 cartas</span>
+            <span class="pill" id="cardCountPill">454 cartas</span>
           </div>
           <div class="panel-body">
             <div class="field">
@@ -1544,6 +1544,14 @@
               <div class="field">
                 <label for="newTags">Tags</label>
                 <input id="newTags" maxlength="160" placeholder="destroy, control, ongoing">
+              </div>
+              <div class="field">
+                <label for="newCodeToken">Token do código oficial</label>
+                <input id="newCodeToken" maxlength="48" placeholder="Opcional. Ex: JffThBbyDlphn">
+              </div>
+              <div class="field">
+                <label for="newImageUrl">URL da imagem</label>
+                <input id="newImageUrl" maxlength="900" placeholder="Opcional. Snap.fan ou MarvelSnapZone">
               </div>
               <button class="btn good" type="button" id="btnAddCard">Adicionar</button>
             </div>
@@ -2334,8 +2342,10 @@
       missingCount: document.getElementById("missingCount"),
       missingSummary: document.getElementById("missingSummary"),
       nameToggle: document.getElementById("nameToggle"),
+      newCodeToken: document.getElementById("newCodeToken"),
       newCost: document.getElementById("newCost"),
       newId: document.getElementById("newId"),
+      newImageUrl: document.getElementById("newImageUrl"),
       newName: document.getElementById("newName"),
       newCollectionName: document.getElementById("newCollectionName"),
       newPower: document.getElementById("newPower"),
@@ -2395,6 +2405,10 @@
       return cleanText(value, 48).replace(/[^A-Za-z0-9]/g, "");
     }
 
+    function safeCodeToken(value) {
+      return cleanText(value, 48).replace(/[^A-Za-z0-9]/g, "");
+    }
+
     function safeStorageId(value, fallback = "") {
       return cleanText(value, 96).replace(/[^A-Za-z0-9_-]/g, "") || fallback;
     }
@@ -2403,6 +2417,18 @@
       const url = cleanText(value, MAX_DATA_URL_LENGTH);
       if (!url) return "";
       if (url.startsWith("https://game-assets.snap.fan/")) return url;
+      try {
+        const parsed = new URL(url);
+        const host = parsed.hostname.toLowerCase();
+        const allowedHost =
+          host === "snap.fan" ||
+          host.endsWith(".snap.fan") ||
+          host === "marvelsnapzone.com" ||
+          host.endsWith(".marvelsnapzone.com");
+        if (parsed.protocol === "https:" && allowedHost && !/[")\\]/.test(url)) return parsed.href;
+      } catch (error) {
+        // Mantém apenas fontes conhecidas e data URLs abaixo.
+      }
       if (/^data:image\/(?:png|jpe?g|webp);base64,[a-z0-9+/=\s]+$/i.test(url) && url.length <= MAX_DATA_URL_LENGTH) return url;
       return "";
     }
@@ -2433,6 +2459,7 @@
         tags: Array.isArray(card && card.tags)
           ? [...new Set(card.tags.map(tag => cleanText(tag, 24).toLowerCase()).filter(Boolean))].slice(0, 8)
           : [],
+        codeToken: safeCodeToken(card && card.codeToken),
         imageUrl: safeImageUrl(card && card.imageUrl),
         custom: card && card.custom === true
       };
@@ -3200,8 +3227,12 @@
       return `${compactCardBase(safeId)}${safeId.length.toString(36).toUpperCase()}`;
     }
 
+    function officialCardToken(card) {
+      return safeCodeToken(card && card.codeToken) || compactCardToken(card && card.id);
+    }
+
     function encodeOfficialDeck(deck = state.currentDeck) {
-      return encodeUtf8Base64(deck.map(card => compactCardToken(card.id)).join(","));
+      return encodeUtf8Base64(deck.map(officialCardToken).join(","));
     }
 
     function encodeDeck(deck, name) {
@@ -3508,7 +3539,7 @@
         strong.textContent = card.name;
         const small = document.createElement("div");
         small.className = "mini-text";
-        small.textContent = `${card.id} · ${card.series}`;
+        small.textContent = `${card.id}${card.codeToken ? ` · ${card.codeToken}` : ""} · ${card.series}`;
         textWrap.appendChild(strong);
         textWrap.appendChild(small);
         textWrap.appendChild(makeCollectionBadge(card));
@@ -3732,6 +3763,8 @@
       const cost = clampNumber(el.newCost.value, 0, 9, NaN);
       const power = clampNumber(el.newPower.value, -30, 30, NaN);
       const tags = el.newTags.value.split(",").map(tag => cleanText(tag, 24).toLowerCase()).filter(Boolean).slice(0, 8);
+      const codeToken = safeCodeToken(el.newCodeToken.value);
+      const imageUrl = safeImageUrl(el.newImageUrl.value);
 
       if (!name || !id || !Number.isFinite(cost) || !Number.isFinite(power)) {
         setStatus("Preencha nome, CardDefId, custo e poder.", "bad");
@@ -3743,10 +3776,17 @@
         return;
       }
 
-      const card = normalizeCard({ name, id, cost, power, series: "Custom", tags, custom: true });
+      if (el.newImageUrl.value.trim() && !imageUrl) {
+        setStatus("URL de imagem inválida. Use link HTTPS do Snap.fan ou MarvelSnapZone.", "bad");
+        return;
+      }
+
+      const card = normalizeCard({ name, id, cost, power, series: "Custom", tags, codeToken, imageUrl, custom: true });
       state.cards = mergeCards(state.cards, [card]).map(normalizeCard);
       el.newName.value = "";
       el.newId.value = "";
+      el.newCodeToken.value = "";
+      el.newImageUrl.value = "";
       el.newCost.value = 3;
       el.newPower.value = 4;
       el.newTags.value = "";
@@ -3818,7 +3858,7 @@
       const expectedLength = parseInt(cleanToken.slice(-1), 36);
       const base = cleanToken.slice(0, -1).toLowerCase();
 
-      const exact = state.cards.find(card => compactCardToken(card.id).toLowerCase() === cleanToken.toLowerCase());
+      const exact = state.cards.find(card => officialCardToken(card).toLowerCase() === cleanToken.toLowerCase());
       if (exact) return { id: exact.id, card: exact, name: exact.name, cost: exact.cost, token };
 
       const byAlias = state.cards.find(card => {
@@ -3874,6 +3914,19 @@
       return null;
     }
 
+    function prefillCardFromDecoded(entry) {
+      el.newName.value = entry.name || entry.id || "";
+      el.newId.value = safeCardId(entry.id || guessedIdsFromName(entry.name || "")[0] || "");
+      el.newCost.value = Number.isFinite(entry.cost) ? entry.cost : 3;
+      el.newPower.value = 0;
+      el.newTags.value = "";
+      el.newCodeToken.value = safeCodeToken(entry.token);
+      el.newImageUrl.value = "";
+      switchView("generatorView");
+      el.newName.focus();
+      setStatus("Carta preenchida. Ajuste poder/tags/imagem e clique em Adicionar.", "good");
+    }
+
     function decodeDeck() {
       el.decodedDeck.innerHTML = "";
       const value = el.decodeInput.value.trim();
@@ -3899,10 +3952,18 @@
 
           const meta = document.createElement("span");
           meta.textContent = card
-            ? `${card.cost}/${card.power} · ${card.id}`
+            ? `${card.cost}/${card.power} · ${card.id} · ${entry.token}`
             : `${Number.isFinite(entry.cost) ? `${entry.cost}/? · ` : ""}${entry.id} · fora da base`;
           item.appendChild(name);
           item.appendChild(meta);
+          if (!card) {
+            const addButton = document.createElement("button");
+            addButton.type = "button";
+            addButton.className = "btn secondary";
+            addButton.textContent = "Preencher";
+            addButton.addEventListener("click", () => prefillCardFromDecoded(entry));
+            item.appendChild(addButton);
+          }
           el.decodedDeck.appendChild(item);
         });
 
