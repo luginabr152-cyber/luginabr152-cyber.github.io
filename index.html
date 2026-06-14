@@ -3219,6 +3219,11 @@
 
     function compactCardBase(id) {
       const safeId = safeCardId(id);
+      return safeId.slice(0, 1) + safeId.slice(1).replace(/[aeiouy]/ig, "");
+    }
+
+    function legacyCompactCardBase(id) {
+      const safeId = safeCardId(id);
       return safeId.slice(0, 1) + safeId.slice(1).replace(/[aeiou]/ig, "");
     }
 
@@ -3227,8 +3232,21 @@
       return `${compactCardBase(safeId)}${safeId.length.toString(36).toUpperCase()}`;
     }
 
+    function legacyCompactCardToken(id) {
+      const safeId = safeCardId(id);
+      return `${legacyCompactCardBase(safeId)}${safeId.length.toString(36).toUpperCase()}`;
+    }
+
     function officialCardToken(card) {
-      return safeCodeToken(card && card.codeToken) || compactCardToken(card && card.id);
+      const safeId = safeCardId(card && card.id);
+      const generated = compactCardToken(safeId);
+      const override = safeCodeToken(card && card.codeToken);
+      if (!override) return generated;
+      const legacy = legacyCompactCardToken(safeId);
+      if (legacy && override.toLowerCase() === legacy.toLowerCase() && override.toLowerCase() !== generated.toLowerCase()) {
+        return generated;
+      }
+      return override;
     }
 
     function encodeOfficialDeck(deck = state.currentDeck) {
@@ -3857,20 +3875,21 @@
       if (!cleanToken) return { id: "", card: null, name: "", cost: null, token };
       const expectedLength = parseInt(cleanToken.slice(-1), 36);
       const base = cleanToken.slice(0, -1).toLowerCase();
+      const matchesCompactTokenBase = id => {
+        const safeId = safeCardId(id);
+        if (!safeId) return false;
+        if (Number.isFinite(expectedLength) && safeId.length !== expectedLength) return false;
+        return compactCardBase(safeId).toLowerCase() === base || legacyCompactCardBase(safeId).toLowerCase() === base;
+      };
 
       const exact = state.cards.find(card => officialCardToken(card).toLowerCase() === cleanToken.toLowerCase());
       if (exact) return { id: exact.id, card: exact, name: exact.name, cost: exact.cost, token };
 
-      const byAlias = state.cards.find(card => {
-        const id = safeCardId(card.id);
-        return compactCardBase(id).toLowerCase() === base && (!Number.isFinite(expectedLength) || id.length === expectedLength);
-      });
+      const byAlias = state.cards.find(card => matchesCompactTokenBase(card.id));
       if (byAlias) return { id: byAlias.id, card: byAlias, name: byAlias.name, cost: byAlias.cost, token };
 
       for (const exported of exportedNames) {
-        const guessed = guessedIdsFromName(exported.name).find(id => (
-          compactCardBase(id).toLowerCase() === base && (!Number.isFinite(expectedLength) || id.length === expectedLength)
-        ));
+        const guessed = guessedIdsFromName(exported.name).find(id => matchesCompactTokenBase(id));
         if (guessed) return { id: guessed, card: null, name: exported.name, cost: exported.cost, token };
       }
 

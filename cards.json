@@ -361,7 +361,7 @@
         "tempo"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/KittyPryde-7310e24d50de3f3dbb344749a2278b6897472cfab07b75ff1f563e3c37a06b63.webp?width=350&quality=80",
-      "codeToken": "KttyPrydA"
+      "codeToken": "KttPrdA"
     },
     {
       "name": "Korg",
@@ -1269,7 +1269,7 @@
     {
       "name": "Jeff the Baby Dolphin!?",
       "id": "JeffTheBabyDolphin",
-      "codeToken": "JffThBbyDlphnI",
+      "codeToken": "JffThBbDlphnI",
       "cost": 2,
       "power": 2,
       "series": "S4/5",
@@ -3542,7 +3542,7 @@
         "scaler"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/ZombieSentry-3a1f4f6f33f4603f1f01e76d2a00723e8c1ac68c12851a677bea3aef10345653.webp?width=350&quality=80",
-      "codeToken": "ZmbSntryC"
+      "codeToken": "ZmbSntrC"
     },
     {
       "name": "Absorbing Man",
@@ -4268,7 +4268,7 @@
         "value"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sentry-c94044e987311728ab8509936691c4f062953827147689ba6312c0c55f2e739b.webp?width=350&quality=80",
-      "codeToken": "Sntry6"
+      "codeToken": "Sntr6"
     },
     {
       "name": "Shang-Chi",
