@@ -1547,13 +1547,17 @@
               </div>
               <div class="field">
                 <label for="newCodeToken">Token do código oficial</label>
-                <input id="newCodeToken" maxlength="48" placeholder="Opcional. Ex: JffThBbyDlphn">
+                <input id="newCodeToken" maxlength="48" placeholder="Opcional. Ex: JffThBbDlphnI">
               </div>
               <div class="field">
                 <label for="newImageUrl">URL da imagem</label>
                 <input id="newImageUrl" maxlength="900" placeholder="Opcional. Snap.fan ou MarvelSnapZone">
               </div>
-              <button class="btn good" type="button" id="btnAddCard">Adicionar</button>
+              <div class="mini-text">Cartas adicionadas aqui ficam só neste navegador.</div>
+              <div class="button-row">
+                <button class="btn good" type="button" id="btnAddCard">Adicionar local</button>
+                <a class="btn secondary" href="card-admin.html" target="_blank" rel="noopener">Gerenciar base</a>
+              </div>
             </div>
           </section>
 
@@ -2424,7 +2428,9 @@
           host === "snap.fan" ||
           host.endsWith(".snap.fan") ||
           host === "marvelsnapzone.com" ||
-          host.endsWith(".marvelsnapzone.com");
+          host.endsWith(".marvelsnapzone.com") ||
+          host === "marvelsnap.pro" ||
+          host.endsWith(".marvelsnap.pro");
         if (parsed.protocol === "https:" && allowedHost && !/[")\\]/.test(url)) return parsed.href;
       } catch (error) {
         // Mantém apenas fontes conhecidas e data URLs abaixo.
@@ -2523,6 +2529,23 @@
 
     function currentBaseCards() {
       return state.baseCards && state.baseCards.length ? state.baseCards : BASE_CARDS.map(normalizeCard);
+    }
+
+    function baseCardIdSet() {
+      return new Set(currentBaseCards().map(card => safeCardId(card.id)).filter(Boolean));
+    }
+
+    function sanitizeCustomCards(cards) {
+      if (!Array.isArray(cards)) return [];
+      const baseIds = baseCardIdSet();
+      const map = new Map();
+      cards.slice(0, MAX_CUSTOM_CARDS).forEach(rawCard => {
+        const card = normalizeCard({ ...(rawCard || {}), custom: true });
+        if (card.id && card.name && !baseIds.has(card.id)) {
+          map.set(card.id, { ...card, custom: true });
+        }
+      });
+      return [...map.values()];
     }
 
     async function loadCardDatabase(force = false) {
@@ -2657,7 +2680,7 @@
       const fallbackSeed = makeSeed();
       try {
         const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-        const savedCards = Array.isArray(saved.cards) ? saved.cards.slice(0, MAX_CUSTOM_CARDS) : [];
+        const savedCards = sanitizeCustomCards(saved.cards);
         state.cards = mergeCards(currentBaseCards(), savedCards).map(normalizeCard);
         state.hiddenDeckIds = new Set(Array.isArray(saved.hiddenDeckIds) ? saved.hiddenDeckIds : []);
         state.pinned = new Set(Array.isArray(saved.pinned) ? saved.pinned : []);
@@ -2738,10 +2761,11 @@
     }
 
     function saveState() {
-      const customCards = state.cards.filter(card => card.custom);
+      const baseIds = baseCardIdSet();
+      const customCards = state.cards.filter(card => card.custom && !baseIds.has(card.id));
       syncActiveProfile();
       const payload = {
-        cards: customCards.slice(0, MAX_CUSTOM_CARDS).map(normalizeCard),
+        cards: sanitizeCustomCards(customCards).map(normalizeCard),
         hiddenDeckIds: [...state.hiddenDeckIds].map(safeCardId).filter(Boolean).slice(0, 12),
         pinned: [...state.pinned].map(safeCardId).filter(Boolean),
         banned: [...state.banned].map(safeCardId).filter(Boolean),
@@ -2934,10 +2958,15 @@
 
     function mergeCards(baseCards, customCards) {
       const map = new Map();
+      const baseIds = new Set();
       baseCards.forEach(card => map.set(card.id, { ...card, custom: false }));
+      baseCards.forEach(card => {
+        const id = safeCardId(card.id);
+        if (id) baseIds.add(id);
+      });
       customCards.slice(0, MAX_CUSTOM_CARDS).forEach(rawCard => {
         const card = normalizeCard({ ...(rawCard || {}), custom: true });
-        if (card.id && card.name) {
+        if (card.id && card.name && !baseIds.has(card.id)) {
           map.set(card.id, { ...card, custom: true });
         }
       });
@@ -3799,8 +3828,14 @@
         return;
       }
 
+      if (baseCardIdSet().has(id)) {
+        setStatus(`${name} já existe na base global. Use o gerenciador da base para atualizar a carta oficial.`, "bad");
+        return;
+      }
+
       const card = normalizeCard({ name, id, cost, power, series: "Custom", tags, codeToken, imageUrl, custom: true });
-      state.cards = mergeCards(state.cards, [card]).map(normalizeCard);
+      const customCards = state.cards.filter(existing => existing.custom && existing.id !== card.id);
+      state.cards = mergeCards(currentBaseCards(), [...customCards, card]).map(normalizeCard);
       el.newName.value = "";
       el.newId.value = "";
       el.newCodeToken.value = "";
@@ -3810,7 +3845,7 @@
       el.newTags.value = "";
       renderTable();
       saveState();
-      setStatus(`${card.name} adicionada à base.`, "good");
+      setStatus(`${card.name} adicionada localmente neste navegador.`, "good");
     }
 
     function clearDeck() {
