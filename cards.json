@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-06-14",
+  "updatedAt": "2026-06-23",
   "source": "Snap Deck Lab cards.json",
   "cards": [
     {
@@ -180,6 +180,20 @@
         "tempo"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Deadpool-a5dc40fe983c98a608ace9b8229bb6d9a88f1ff3e55d980879bd84b41033a16f.webp?width=350&quality=80"
+    },
+    {
+      "name": "Deafening Chord",
+      "id": "DeafeningChord",
+      "cost": 1,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "move",
+        "ramp",
+        "control"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/DeafeningChord-a683f70c04fad8f27121f06e1cb92ed6c0c6ad5b85ca5bebaa045743574d7616.webp"
     },
     {
       "name": "Ebony Maw",
@@ -411,6 +425,19 @@
         "value"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/MadThinker-339cc4db9edd5972477534617bf4accc3c59f397437f6168687e698581920c0a.webp?width=350&quality=80"
+    },
+    {
+      "name": "Majestic Wingbeat",
+      "id": "MajesticWingbeat",
+      "cost": 1,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MajesticWingbeat-766e16f87d769e6d3749fec6aedf40cdbcebbc25fcc04aa0048cb38dbd9cacf4.webp"
     },
     {
       "name": "Mantis",
@@ -682,6 +709,19 @@
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/SquirrelGirl-bfaffc45bc0c753ca23aa734fd705a978f0b8a828074599bb4fad02870688153.webp?width=350&quality=80"
     },
     {
+      "name": "Sub-Mariner",
+      "id": "SubMariner",
+      "cost": 1,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "value",
+        "ramp",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/SubMariner-b6d0c6934a1b783df8166ca05e26e16a2af19061d10522509d8a5542cb02d6d1.webp"
+    },
+    {
       "name": "Sunspot",
       "id": "Sunspot",
       "cost": 1,
@@ -707,6 +747,18 @@
         "value"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Hood-1e7db731a67521189066b5064ec23b08c8393bfc856502611ac87f66b75c392b.webp?width=350&quality=80"
+    },
+    {
+      "name": "The Hunger",
+      "id": "TheHunger",
+      "cost": 1,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/TheHunger-eed747910cf66e5cb0d2e4c31ca9f846c475242fd2ac27e80d6481cc52ba258c.webp"
     },
     {
       "name": "Titania",
@@ -754,6 +806,18 @@
         "tempo"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Vulture-a1cf16d8ad3c4a6f0e2a6833c0414785235386069af2a3e1ee4b114b354fafe5.webp?width=350&quality=80"
+    },
+    {
+      "name": "Web Sling",
+      "id": "WebSling",
+      "cost": 1,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "move"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/WebSling-5acfae4b8cb0e02dd24f54a8241d7f2ecffef0ba25b6c2052af424a43e4a557e.webp"
     },
     {
       "name": "X-23",
@@ -879,6 +943,19 @@
         "ongoing"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Armor-64c0e43b123e5d0b331ff3c82a95032e652115602522120345070c9861bd041b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Askani'son",
+      "id": "Askanison",
+      "cost": 2,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "activate",
+        "value",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Askanison-cf5575c6205c2878426611a54483e6f028fc16d3b556c97133a73af7cf0b00ed.webp"
     },
     {
       "name": "Awesome Andy",
@@ -1118,6 +1195,20 @@
         "ramp"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Falcon-91ce692cfd042dc2eabd055734e6234a63fb924bafea330986e5dba96c34ce23.webp?width=350&quality=80"
+    },
+    {
+      "name": "Fastball Special",
+      "id": "FastballSpecial",
+      "cost": 2,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "destroy",
+        "scaler",
+        "control"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/FastballSpecial-6953e7ff22b56e75de01f3476af782834ad3f83cf9e6e03afba1cbef7da20559.webp"
     },
     {
       "name": "Firehair",
@@ -1765,6 +1856,19 @@
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/SamWilson-ffeeec6237e76f262a1f817fbf7d8af6cad6e7a7154c7d838d495c7cff673af4.webp?width=350&quality=80"
     },
     {
+      "name": "Sandstorm",
+      "id": "Sandstorm",
+      "cost": 2,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "value",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Sandstorm-21abb05d8801473416b4c0f028e880602dc76c0e2449250d121c35f9a114e393.webp"
+    },
+    {
       "name": "Scarlet Witch",
       "id": "ScarletWitch",
       "cost": 2,
@@ -1918,6 +2022,19 @@
         "scaler"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Surge-c838d9d3c5fe109e37e82920ac85c31b8e29f9acf91299aff0f0ceca0f8a8dde.webp?width=350&quality=80"
+    },
+    {
+      "name": "Swarm",
+      "id": "Swarm",
+      "cost": 2,
+      "power": 3,
+      "series": "S1/2",
+      "tags": [
+        "discard",
+        "value",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Swarm-7309a43e56c6283450b3bcaf5774678338e20ea40f19d13394f2c93ddfc9e6fd.webp"
     },
     {
       "name": "Sword of Fu Xi",
@@ -2488,6 +2605,20 @@
         "value"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Debrii-d47a0c6a0b8fbd8790f54208198a0875f2c7213d390ff435ff98cf452d88af5d.webp?width=350&quality=80"
+    },
+    {
+      "name": "Diamondback",
+      "id": "Diamondback",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "ongoing",
+        "value",
+        "scaler",
+        "control"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Diamondback-0403f60766758ea0fb2d7a69037b6ea6baa82f9347245785d0206c9ad0133a47.webp"
     },
     {
       "name": "Dragon of the Moon",
@@ -3065,6 +3196,18 @@
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Nakia-d99d6c8f8fd0266418ea751b2f152fb703f10be812c6911f8fd9ece7eec2aed7.webp?width=350&quality=80"
     },
     {
+      "name": "Namorita",
+      "id": "Namorita",
+      "cost": 3,
+      "power": 5,
+      "series": "S4/5",
+      "tags": [
+        "value",
+        "ramp"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Namorita-640fcdc1787592945035263b762895a0b203f760d6fb3a47d48afd089e19579a.webp"
+    },
+    {
       "name": "Nightmare",
       "id": "Nightmare",
       "cost": 3,
@@ -3435,6 +3578,17 @@
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/SwordMaster-727835cb18ee8cab1b39df5250b7ea463002022657232427b615cbb4fb0bfa06.webp?width=350&quality=80"
     },
     {
+      "name": "Terrax the Tamer",
+      "id": "Terrax",
+      "cost": 3,
+      "power": 4,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Terrax-9b5e404268583b722455d228df2a6b819d5f62cc58ed5ac19598263acdf9acb3.webp"
+    },
+    {
       "name": "The Ancient One",
       "id": "TheAncientOne",
       "cost": 3,
@@ -3458,6 +3612,18 @@
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Thor-8a8ff42f0a4edd103f1ff42d3ac50fbf347e848d9b13aa5c839d393af4af201a.webp?width=350&quality=80"
     },
     {
+      "name": "Triton",
+      "id": "Triton",
+      "cost": 3,
+      "power": 4,
+      "series": "Unknown",
+      "tags": [
+        "on-reveal",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Triton-2889052c3336d8fd199374a10c08b9963fa37aeb3d1347bcc974a75839071eca.webp"
+    },
+    {
       "name": "Venom",
       "id": "Venom",
       "cost": 3,
@@ -3469,6 +3635,18 @@
         "value"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Venom-f29cdd80e077ddd235a9dac65d1958beed8593bb86c4d9649c7ba07a6cfb93b0.webp?width=350&quality=80"
+    },
+    {
+      "name": "Venus",
+      "id": "Venus",
+      "cost": 3,
+      "power": 3,
+      "series": "S4/5",
+      "tags": [
+        "value",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/Venus-a77d6174c2eb7c82f9e09ead47a725cb60667e1a1cf051cbb93a753f0a7c0c5c.webp"
     },
     {
       "name": "Viper",
@@ -3590,6 +3768,20 @@
         "value"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/AbsorbingMan-cd9833800ef006ee78cfd1d001782d0ad24db55e0bc0313f4dd3ad6132ddd39b.webp?width=350&quality=80"
+    },
+    {
+      "name": "Adamantium Infusion",
+      "id": "AdamantiumInfusion",
+      "cost": 4,
+      "power": 0,
+      "series": "S4/5",
+      "tags": [
+        "on-reveal",
+        "destroy",
+        "scaler",
+        "control"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/AdamantiumInfusion-1cfccf8b61edb320e29e70f6660442ecc216b4911afeafb14c8a97c957950809.webp"
     },
     {
       "name": "Anti-Venom",
@@ -3948,6 +4140,18 @@
         "value"
       ],
       "imageUrl": "https://game-assets.snap.fan/card_variant_images/Jubilee-bdd2ac9cf796b4b1027a37b3b0d531e693ec9f3e6c34ad1d50e55a990e3c57a4.webp?width=350&quality=80"
+    },
+    {
+      "name": "Jubilee Silver Surfer",
+      "id": "JubileeSilverSurfer",
+      "cost": 4,
+      "power": 2,
+      "series": "S4/5",
+      "tags": [
+        "value",
+        "scaler"
+      ],
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/JubileeSilverSurfer-04c3f3ecd083561d2e130917a95b1ef33d7cb831faa63df33dce67aa034738e8.webp"
     },
     {
       "name": "Juggernaut",
@@ -5716,16 +5920,14 @@
     },
     {
       "name": "Monstro",
-      "id": "Monstro",
+      "id": "MonstroOctopus",
       "cost": 8,
       "power": 8,
       "series": "S4/5",
       "tags": [
-        "payoff",
-        "ramp",
-        "tempo"
+        "ramp"
       ],
-      "imageUrl": "https://marvelsnapzone.com/wp-content/themes/blocksy-child/assets/media/cards/monstro.webp?v=948"
+      "imageUrl": "https://game-assets.snap.fan/card_variant_images/MonstroOctopus-cc46c3216b89b61e9bb49e5905818c2dfc41b23d8275901bb8aefbdbeef58577.webp"
     }
   ]
 }
